@@ -42,5 +42,11 @@ end
 
 
 -- Load the rest of the modifications 
+
+-- SlideBar
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/slidebar.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/slidebar.lua"))()
+
+-- Executor
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/executor.lua"))()
