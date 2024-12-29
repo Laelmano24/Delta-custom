@@ -1,4 +1,5 @@
 shared.DeltaGuiInterface = nil
+
 shared.DeltaGuiInterfaceColors = {
   Logo = {
     BorderColor = Color3.fromRGB(96, 50, 196),
@@ -8,6 +9,9 @@ shared.DeltaGuiInterfaceColors = {
     SildeBarColor = Color3.fromRGB(22, 11, 46),
     ActiveColor = Color3.fromRGB(125, 65, 255),
     InactiveColor = Color3.fromRGB(57, 29, 117)
+  },
+  MainExecutor = {
+    MainImage = "rbxassetid://122133587174151"
   }
 }
 
@@ -38,4 +42,5 @@ end
 
 
 -- Load the rest of the modifications 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/slidebar.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/slidebar.lua"))()
