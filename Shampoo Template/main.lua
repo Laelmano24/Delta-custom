@@ -11,6 +11,8 @@ shared.DeltaGuiInterfaceColors = {
   }
 }
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/slidebar.lua"))()
+
 local CoreGui = game:GetService("CoreGui")
 for _, Logo in ipairs(CoreGui:GetDescendants()) do
   if Logo:IsA("ImageButton") and Logo.Image == "rbxasset://custom_gloop/new_logo.png" then
