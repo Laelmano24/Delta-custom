@@ -9,13 +9,36 @@ local Executor = MainExecutor:FindFirstChild("Executor")
 if Executor then
   
   local Tabs = Executor.Overlay.Tabs
-  local Menu = Tabs.Menu
+  local Menu = Executor.Overlay.Menu
+  local Buttons = Executor.Overlay.Buttons
   
   Executor.Image = ColorsInfo.MainExecutor.MainImage
   
   Tabs.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.TabsColor
   
-  Menu.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.MenuColor
+  Menu.BackgroundColor3 = ColorsInfo.MainExecutor.MenuColor
+  
+  for _, Button in ipairs(Buttons:GetChildren()) do
+    if Button.Name == "Execute" and Button:IsA("ImageButton") then
+      local Title = Button:FindFirstChild("Title")
+      local UIStroke = Button:FindFirstChild("UIStroke")
+      
+      if Title and UIStroke then
+        
+        Title.TextColor3 = ColorsInfo.MainExecutor.Buttons.ButtonTextColor
+        
+        UIStroke.BackgroundColor3 = ColorsInfo.MainExecutor.Buttons.ExecuteBorderColor
+        
+      end
+    elseif Button.Name ~= "Execute" and Button:IsA("ImageButton") then
+      
+      Title.TextColor3 = ColorsInfo.MainExecutor.Buttons.ButtonTextColor
+        
+      UIStroke.BackgroundColor3 = ColorsInfo.MainExecutor.Buttons.ButtonBorderColor
+      
+    end
+  end
+      
   
   task.spawn(function()
     
