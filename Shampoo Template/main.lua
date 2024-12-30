@@ -11,7 +11,11 @@ shared.DeltaGuiInterfaceColors = {
     InactiveColor = Color3.fromRGB(57, 29, 117)
   },
   MainExecutor = {
-    MainImage = "rbxassetid://122133587174151"
+    MainImage = "rbxassetid://122133587174151",
+    Tabs = {
+      TabsColor = Color3.fromRGB(22, 11, 46),
+      ButtonColor = Color3.fromRGB(70, 35, 147),
+    }
   }
 }
 

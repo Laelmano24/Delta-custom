@@ -8,6 +8,23 @@ local Executor = MainExecutor:FindFirstChild("Executor")
 
 if Executor then
   
+  local Tabs = Executor.Overlay.Tabs
+  
   Executor.Image = ColorsInfo.MainExecutor.MainImage
+  
+  Tabs.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.TabsColor
+  
+  task.spawn(function()
+    
+    while true do
+      local Buttons = Tabs:GetChildren()
+      for _, Button in ipairs(Buttons) do
+        if Button:IsA("ImageButton") then
+          Button.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.ButtonColor
+        end
+      end
+      task.wait()
+    end
+  end)
   
 end
