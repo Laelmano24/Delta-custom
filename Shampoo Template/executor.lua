@@ -9,10 +9,13 @@ local Executor = MainExecutor:FindFirstChild("Executor")
 if Executor then
   
   local Tabs = Executor.Overlay.Tabs
+  local Menu = Tabs.Menu
   
   Executor.Image = ColorsInfo.MainExecutor.MainImage
   
   Tabs.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.TabsColor
+  
+  Menu.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.MenuColor
   
   task.spawn(function()
     

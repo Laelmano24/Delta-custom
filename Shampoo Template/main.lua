@@ -15,6 +15,7 @@ shared.DeltaGuiInterfaceColors = {
     Tabs = {
       TabsColor = Color3.fromRGB(22, 11, 46),
       ButtonColor = Color3.fromRGB(70, 35, 147),
+      MenuColor = Color3.fromRGB(39, 20, 82)
     }
   }
 }
