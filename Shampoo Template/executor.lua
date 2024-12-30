@@ -23,19 +23,15 @@ if Executor then
       local Title = Button:FindFirstChild("Title")
       local UIStroke = Button:FindFirstChild("UIStroke")
       
+      Button.BackgroundColor3 = ColorsInfo.MainExecutor.Buttons.ExecuteBackground
+      
       if Title and UIStroke then
         
-        Title.TextColor3 = ColorsInfo.MainExecutor.Buttons.ButtonTextColor
+        Title.TextColor3 = ColorsInfo.MainExecutor.Buttons.ExecuteTextColor
         
         UIStroke.Color = ColorsInfo.MainExecutor.Buttons.ExecuteBorderColor
         
       end
-    elseif Button.Name ~= "Execute" and Button:IsA("ImageButton") then
-      
-      Title.TextColor3 = ColorsInfo.MainExecutor.Buttons.ButtonTextColor
-        
-      UIStroke.Color = ColorsInfo.MainExecutor.Buttons.ButtonBorderColor
-      
     end
   end
       
