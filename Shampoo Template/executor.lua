@@ -27,14 +27,14 @@ if Executor then
         
         Title.TextColor3 = ColorsInfo.MainExecutor.Buttons.ButtonTextColor
         
-        UIStroke.BackgroundColor3 = ColorsInfo.MainExecutor.Buttons.ExecuteBorderColor
+        UIStroke.Color = ColorsInfo.MainExecutor.Buttons.ExecuteBorderColor
         
       end
     elseif Button.Name ~= "Execute" and Button:IsA("ImageButton") then
       
       Title.TextColor3 = ColorsInfo.MainExecutor.Buttons.ButtonTextColor
         
-      UIStroke.BackgroundColor3 = ColorsInfo.MainExecutor.Buttons.ButtonBorderColor
+      UIStroke.Color = ColorsInfo.MainExecutor.Buttons.ButtonBorderColor
       
     end
   end
