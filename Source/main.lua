@@ -54,7 +54,7 @@ function ExecuteMain()
     
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/home.lua"))()
     
-    -- Home
+    -- scripthub
     
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/scripthub.lua"))()
     

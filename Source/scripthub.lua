@@ -24,6 +24,14 @@ if Holder then
           local Overlay = Button:FindFirstChild("Overlay")
           if Overlay then
             
+            local Verified = Overlay.Title:FindFirstChild("Verified", true)
+            
+            if Verified then
+              
+              Verified.BackgroundColor3 = ColorsInfo.MainScriptHub.Holder.VerifiedFrame
+              
+            end
+            
             Overlay.BackgroundColor3 = ColorsInfo.MainScriptHub.Holder.BackgroundColor
             
           end

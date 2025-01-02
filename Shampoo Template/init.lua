@@ -55,6 +55,7 @@ shared.DeltaGuiInterfaceColors = {
     },
     Holder = {
       BackgroundColor = Color3.fromRGB(16, 9, 35),
+      VerifiedFrame = Color3.fromRGB(91, 48, 193)
     },
     Popup = {
       BackgroundColor = Color3.fromRGB(16, 9, 35),
