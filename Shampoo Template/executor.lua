@@ -5,6 +5,7 @@ local ColorsInfo = shared.DeltaGuiInterfaceColors
 local MainExecutor = DeltaGuiInterface:FindFirstChild("Executor", true)
 
 local Executor = MainExecutor:FindFirstChild("Executor")
+local Sidemenu = MainExecutor:FindFirstChild("Sidemenu")
 
 if Executor then
   
@@ -64,5 +65,24 @@ if Executor then
       task.wait()
     end
   end)
+  
+end
+
+if Sidemenu then
+  
+  
+  for _, Image in ipairs(Sidemenu:GetChildren()) do
+    if Image:IsA("ImageLabel") then
+      Image.BackgroundColor3 = ColorsInfo.MainExecutor.SideMenu.BackgroundColor
+    end
+  end
+  
+  
+  for _, FrameBackground in ipairs(Sidemenu:GetDescendants()) do
+    if FrameBackground.Name == "Information" or FrameBackground.Name == "Showcase" then
+      FrameBackground.BackgroundColor3 = ColorsInfo.MainExecutor.SideMenu.BackgroundImageColor
+    end
+  end
+  
   
 end
