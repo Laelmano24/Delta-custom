@@ -25,24 +25,27 @@ if Holder then
     while true do
       for _, ScriptFrame in ipairs(Holder:GetChildren()) do
         
-        local Frame = ScriptFrame:FindFirstChild("Frame")
+        if ScriptFrame:IsA("ImageLabel") then
         
-        ScriptFrame.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundColor
-        
-        if Frame then
+          local Frame = ScriptFrame:FindFirstChild("Frame")
           
-          Frame.BackgroundColor3 = ColorsInfo.MainHome.Holder.FrameBackgroundColor
+          ScriptFrame.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundColor
           
-        end
-        
-        for _, Button in ipairs(ScriptFrame:GetChildren()) do
-          
-          if Button:IsA("ImageButton") then
+          if Frame then
             
-            Button.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundButtonColor
+            Frame.BackgroundColor3 = ColorsInfo.MainHome.Holder.FrameBackgroundColor
             
           end
           
+          for _, Button in ipairs(ScriptFrame:GetChildren()) do
+            
+            if Button:IsA("ImageButton") then
+              
+              Button.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundButtonColor
+              
+            end
+            
+          end
         end
       end
       task.wait()
@@ -64,7 +67,7 @@ if Popup then
       InputFrame.BackgroundColor3 = ColorsInfo.MainHome.Popup.InputBackgroundColor
       
       if TextLabel and UIStroke then
-        TextLabel.Color3 = ColorsInfo.MainHome.Popup.InputTextColor
+        TextLabel.TextColor3 = ColorsInfo.MainHome.Popup.InputTextColor
         UIStroke.Color = ColorsInfo.MainHome.Popup.InputBorderColor
       end
     end
