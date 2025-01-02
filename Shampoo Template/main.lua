@@ -31,7 +31,7 @@ shared.DeltaGuiInterfaceColors = {
     },
     MenuColor = Color3.fromRGB(39, 20, 82)
   },
-  MainHome {
+  MainHome = {
     Searchbar = {
       BackgroundColor = Color3.fromRGB(22, 11, 46),
       BackgroundButtonColor = Color3.fromRGB(91, 48, 193)
