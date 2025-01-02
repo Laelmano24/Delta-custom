@@ -2,7 +2,7 @@ shared.DeltaGuiInterfaceColors = nil
 
 shared.DeltaGuiInterfaceColors = {
   Logo = {
-    ButtonImage = "",
+    ButtonImage = "rbxasset://119097881141390",
     BorderColor = Color3.fromRGB(96, 50, 196),
     BorderThickness = 3
   },
