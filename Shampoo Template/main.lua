@@ -12,14 +12,17 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainExecutor = {
     MainImage = "rbxassetid://113647171495582",
+    BackgroundColor = Color3.fromRGB(25, 24, 37),
     Buttons = {
       ExecuteTextColor = Color3.fromRGB(111, 57, 232),
       ExecuteBorderColor = Color3.fromRGB(88, 45, 185),
-      ExecuteBackground = Color3.fromRGB(77, 39, 161)
+      ExecuteBackground = Color3.fromRGB(77, 39, 161),
+      NormalTextColor = Color3.fromRGB(91, 48, 193),
+      NormalBorderColor = Color3.fromRGB(69, 36, 146),
+      NormalBackground = Color3.fromRGB(77, 39, 161)
       
     },
     Tabs = {
-      TabsColor = Color3.fromRGB(25, 24, 37),
       ButtonColor = Color3.fromRGB(70, 35, 147)
     },
     MenuColor = Color3.fromRGB(39, 20, 82)
