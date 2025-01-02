@@ -32,20 +32,20 @@ if tostring(NameExecutor()):Find("Delta") then
   
   -- SlideBar
   
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/slidebar.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/slidebar.lua"))()
   
   -- Executor
   
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/executor.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/executor.lua"))()
   
   -- Home
   
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/Home.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/home.lua"))()
   
-  warn("You are using Delta executor. You are using Delta executor. We are loading Laelmano24 modules")
+  warn("You are using Delta executor. You are using Delta executor. We are loading Laelmano24 modules 😸")
   
 else
   
-  warn("You are not using Delta executor, this customization only works with delta")
+  warn("You are not using Delta executor, this customization only works with delta 🥲")
   
 end

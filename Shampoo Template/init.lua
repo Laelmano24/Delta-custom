@@ -49,3 +49,5 @@ ColorInfo = {
     }
   }
 }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/main.lua"))()
