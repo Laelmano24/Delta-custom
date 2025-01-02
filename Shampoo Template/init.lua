@@ -2,6 +2,7 @@ shared.DeltaGuiInterfaceColors = nil
 
 shared.DeltaGuiInterfaceColors = {
   Logo = {
+    ButtonImage = "",
     BorderColor = Color3.fromRGB(96, 50, 196),
     BorderThickness = 3
   },
@@ -47,6 +48,23 @@ shared.DeltaGuiInterfaceColors = {
       InputBackgroundColor = Color3.fromRGB(54, 28, 113),
       InputBorderColor = Color3.fromRGB(79, 41, 165),
     }
+  },
+  MainScriptHub = {
+    Searchbar = {
+      BackgroundColor = Color3.fromRGB(22, 11, 46),
+    },
+    Holder = {
+      BackgroundColor = Color3.fromRGB(16, 9, 35),
+    },
+    Popup = {
+      BackgroundColor = Color3.fromRGB(16, 9, 35),
+      ExecuteTextColor = Color3.fromRGB(111, 57, 232),
+      ExecuteBorderColor = Color3.fromRGB(88, 45, 185),
+      ExecuteBackground = Color3.fromRGB(77, 39, 161),
+      NormalTextColor = Color3.fromRGB(91, 48, 193),
+      NormalBorderColor = Color3.fromRGB(69, 36, 146),
+      NormalBackground = Color3.fromRGB(77, 39, 161)
+    },
   }
 }
 

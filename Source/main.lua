@@ -13,6 +13,12 @@ function ExecuteMain()
       if Logo:IsA("ImageButton") and Logo.Image == "rbxasset://custom_gloop/new_logo.png" then
         local InterfaceGui = Logo.Parent
         local UIStroke = Logo:FindFirstChild("UIStroke")
+        local ImageID = shared.DeltaGuiInterfaceColors.Logo.ButtonImage
+        
+        if ImageID ~= "" then
+          Logo.Image = ImageID
+        end
+        
         if UIStroke then
           
           
@@ -47,6 +53,10 @@ function ExecuteMain()
     -- Home
     
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/home.lua"))()
+    
+    -- Home
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/scripthub.lua"))()
     
     warn("You are using Delta executor. We are loading Laelmano24 modules 😸")
     
