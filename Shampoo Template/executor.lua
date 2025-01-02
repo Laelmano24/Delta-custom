@@ -9,12 +9,19 @@ local Sidemenu = MainExecutor:FindFirstChild("Sidemenu")
 
 if Executor then
   
-  local Tabs = Executor.Overlay.Tabs
-  local Menu = Executor.Overlay.Menu
-  local Frame = Executor.Overlay.Frame
-  local Buttons = Executor.Overlay.Buttons
+  local Overlay = Executor:FindFirstChild("Overlay")
+  local Tabs = Overlay.Tabs
+  local Menu = Overlay.Menu
+  local Frame = Overlay.Frame
+  local Buttons = Overlay.Buttons
   
-  Executor.Image = ColorsInfo.MainExecutor.MainImage
+  Executor.ImageTransparency = 1
+  Executor.BackgroundTransparency = 1
+  
+  Overlay.ImageTransparency = 1
+  Overlay.BackgroundTransparency = 0
+  
+  Overlay.BackgroundColor3 = ColorsInfo.MainExecutor.BackgroundColor
   
   Tabs.BackgroundColor3 = ColorsInfo.MainExecutor.BackgroundColor
   
