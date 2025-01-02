@@ -8,6 +8,8 @@ local Searchbar = MainHome:FindFirstChild("Searchbar")
 
 local Holder = MainHome:FindFirstChild("Holder")
 
+local Popup = MainHome:FindFirstChild("Popup")
+
 if Searchbar then
   
   Searchbar.BackgroundColor3 = ColorsInfo.MainHome.Searchbar.BackgroundColor
@@ -38,4 +40,33 @@ if Holder then
     end
     
   end)
+end
+
+if Popup then
+  
+  local Button = Popup:FindFirstChild("Add")
+  
+  if Button then
+    Button.BackgroundColor3 = ColorsInfo.MainPopup.BackgroundButtonColor
+  end
+  
+  Popup.BackgroundColor3 = ColorsInfo.MainPopup.BackgroundColor
+  
+  for _, FrameInput in ipairs(Popup:GetChildren()) do
+    if FrameInput.Name == "Source" or FrameInput.Name == "Title" then
+      local TextLabel = FrameInput:FindFirstChild("TextLabel")
+      local UIStroke = FrameInput:FindFirstChild("UIStroke")
+      
+      if TextLabel and UIStroke then
+        
+        TextLabel.TextColor3 = ColorsInfo.MainPopup.InputTextColor
+        
+        UIStroke.Color = ColorsInfo.MainPopup.InputBorderColor
+        
+      end
+      
+      FrameInput.BackgroundColor3 = ColorsInfo.MainPopup.InputBackgroundColor
+      
+    end
+  end
 end
