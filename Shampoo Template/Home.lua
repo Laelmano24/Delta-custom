@@ -27,6 +27,13 @@ if Holder then
     while true do
       for _, ImageBackground in ipairs(Holder:GetChildren()) do
         if ImageBackground:IsA("ImageLabel") then
+          
+          local Frame = ImageBackground:FindFirstChild("Frame")
+          
+          if Frame then
+            Frame.BackgroundColor3 = ColorsInfo.MainHome.Holder.FrameBackgroundColor
+          end
+          
           ImageBackground.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundColor
           
           for _, Button in ipairs(ImageBackground:GetChildren()) do
@@ -47,10 +54,10 @@ if Popup then
   local Button = Popup:FindFirstChild("Add")
   
   if Button then
-    Button.BackgroundColor3 = ColorsInfo.MainPopup.BackgroundButtonColor
+    Button.BackgroundColor3 = ColorsInfo.MainHome.Popup.BackgroundButtonColor
   end
   
-  Popup.BackgroundColor3 = ColorsInfo.MainPopup.BackgroundColor
+  Popup.BackgroundColor3 = ColorsInfo.MainHome.Popup.BackgroundColor
   
   for _, FrameInput in ipairs(Popup:GetChildren()) do
     if FrameInput.Name == "Source" or FrameInput.Name == "Title" then
@@ -59,13 +66,13 @@ if Popup then
       
       if TextLabel and UIStroke then
         
-        TextLabel.TextColor3 = ColorsInfo.MainPopup.InputTextColor
+        TextLabel.TextColor3 = ColorsInfo.MainHome.Popup.InputTextColor
         
-        UIStroke.Color = ColorsInfo.MainPopup.InputBorderColor
+        UIStroke.Color = ColorsInfo.MainHome.Popup.InputBorderColor
         
       end
       
-      FrameInput.BackgroundColor3 = ColorsInfo.MainPopup.InputBackgroundColor
+      FrameInput.BackgroundColor3 = ColorsInfo.MainHome.Popup.InputBackgroundColor
       
     end
   end
