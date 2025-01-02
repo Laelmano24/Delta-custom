@@ -69,11 +69,11 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainConsole = {
     BackgroundColor = Color3.fromRGB(22, 11, 46),
-    BackgroundConsole = Color3.fromRGB(22, 11, 46),
+    BackgroundConsole = Color3.fromRGB(12, 6, 26),
     SearchbarColor = Color3.fromRGB(85, 42, 177),
     ClearTextColor = Color3.fromRGB(111, 57, 232),
     ClearBorderColor = Color3.fromRGB(88, 45, 185),
-    ClearBackground = Color3.fromRGB(77, 39, 161),
+    ClearBackground = Color3.fromRGB(61, 31, 128),
   }
 }
 

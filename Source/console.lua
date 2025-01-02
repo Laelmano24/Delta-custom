@@ -19,12 +19,16 @@ for _, ConsoleFrame in ipairs(MainConsole:GetChildren()) do
       local Border = Searchbar:FindFirstChild("UIStroke")
       local Button = Buttons:FindFirstChild("Clear")
       
+      Searchbar.BackgroundColor3 = ColorsInfo.MainConsole.BackgroundColor
+      
       if Border then
         Border.Color = ColorsInfo.MainConsole.SearchbarColor
       end
       if Button then
         local Title = Button:FindFirstChild("Title")
         local UIStroke = Button:FindFirstChild("UIStroke")
+        
+        Button.BackgroundColor3 = ColorsInfo.MainConsole.ClearBackground
         
         if Title and UIStroke then
           
