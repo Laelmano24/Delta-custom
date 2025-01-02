@@ -39,7 +39,7 @@ if Holder then
       for _, Toggle in ipairs(Holder:GetChildren()) do
         if string.find(Toggle.Name, "SettingSwitch") then
           local Enable = Toggle:FindFirstChild("Enabled")
-          local Button = Toggle:FindFirstChild("Stwich")
+          local Button = Toggle:FindFirstChild("Switch")
           local Description = Toggle:FindFirstChild("Desc")
           
           if Enable and Enable.Value and Description then
