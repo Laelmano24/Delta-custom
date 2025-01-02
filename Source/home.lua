@@ -2,94 +2,75 @@ local DeltaGuiInterface = shared.DeltaGuiInterface
 
 local ColorsInfo = shared.DeltaGuiInterfaceColors
 
-local MainExecutor = DeltaGuiInterface:FindFirstChild("Executor", true)
+local MainHome = DeltaGuiInterface:FindFirstChild("Home", true)
 
-local Executor = MainExecutor:FindFirstChild("Executor")
-local Sidemenu = MainExecutor:FindFirstChild("Sidemenu")
+local Searchbar = MainHome:FindFirstChild("Searchbar")
+local Holder = MainHome:FindFirstChild("Holder")
+local Popup = MainHome:FindFirstChild("Popup")
 
-if Executor then
+if Searchbar then
+  local Button = Searchbar:FindFirstChild("Button")
   
-  local Overlay = Executor:FindFirstChild("Overlay")
-  local Tabs = Overlay.Tabs
-  local Menu = Overlay.Menu
-  local Frame = Overlay.Frame
-  local Buttons = Overlay.Buttons
+  Searchbar.BackgroundColor3 = ColorsInfo.MainHome.Searchbar.BackgroundColor
   
-  Executor.ImageTransparency = 1
-  Executor.BackgroundTransparency = 1
-  
-  Overlay.ImageTransparency = 1
-  Overlay.BackgroundTransparency = 0
-  
-  Overlay.BackgroundColor3 = ColorsInfo.MainExecutor.BackgroundColor
-  
-  Tabs.BackgroundColor3 = ColorsInfo.MainExecutor.BackgroundColor
-  
-  Frame.BackgroundColor3 = ColorsInfo.MainExecutor.BackgroundColor
-  
-  Menu.BackgroundColor3 = ColorsInfo.MainExecutor.MenuColor
-  
-  for _, Button in ipairs(Buttons:GetChildren()) do
-    if Button.Name == "Execute" and Button:IsA("ImageButton") then
-      local Title = Button:FindFirstChild("Title")
-      local UIStroke = Button:FindFirstChild("UIStroke")
-      
-      Button.BackgroundColor3 = ColorsInfo.MainExecutor.Buttons.ExecuteBackground
-      
-      if Title and UIStroke then
-        
-        Title.TextColor3 = ColorsInfo.MainExecutor.Buttons.ExecuteTextColor
-        
-        UIStroke.Color = ColorsInfo.MainExecutor.Buttons.ExecuteBorderColor
-        
-      end
-    elseif Button.Name ~= "Execute" and Button:IsA("ImageButton") then
-      local Title = Button:FindFirstChild("Title")
-      local UIStroke = Button:FindFirstChild("UIStroke")
-      
-      Button.BackgroundColor3 = ColorsInfo.MainExecutor.Buttons.NormalBackground
-      
-      if Title and UIStroke then
-        
-        Title.TextColor3 = ColorsInfo.MainExecutor.Buttons.NormalTextColor
-        
-        UIStroke.Color = ColorsInfo.MainExecutor.Buttons.NormalBorderColor
-        
-      end
-    end
-  end
-      
-  
-  task.spawn(function()
+  if Button then
     
+    Button.BackgroundColor3 = ColorsInfo.MainHome.Searchbar.BackgroundButtonColor
+    
+  end
+end
+
+if Holder then
+  task.spawn(function()
     while true do
-      local Buttons = Tabs:GetChildren()
-      for _, Button in ipairs(Buttons) do
-        if Button:IsA("ImageButton") then
-          Button.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.ButtonColor
+      for _, ScriptFrame in ipairs(Holder:GetChildren()) do
+        
+        local Frame = ScriptFrame:FindFirstChild("Frame")
+        
+        ScriptFrame.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundColor
+        
+        if Frame then
+          
+          Frame.BackgroundColor3 = ColorsInfo.MainHome.Holder.FrameBackgroundColor
+          
+        end
+        
+        for _, Button in ipairs(ScriptFrame:GetChildren()) do
+          
+          if Button:IsA("ImageButton") then
+            
+            Button.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundButtonColor
+            
+          end
+          
         end
       end
       task.wait()
     end
   end)
-  
 end
 
-if Sidemenu then
+if Popup then
   
+  local Button = Popup:FindFirstChild("Add")
   
-  for _, Image in ipairs(Sidemenu:GetChildren()) do
-    if Image:IsA("ImageLabel") then
-      Image.BackgroundColor3 = ColorsInfo.MainExecutor.SideMenu.BackgroundColor
+  Popup.BackgroundColor3 = ColorsInfo.MainHome.Popup.BackgroundColor
+  
+  for _, InputFrame in ipairs(Popup:GetChildren()) do
+    if InputFrame.Name == "Source" or InputFrame.Name == "Title" then
+      local TextLabel = InputFrame:FindFirstChild("TextLabel")
+      local UIStroke = InputFrame:FindFirstChild("UIStroke")
+      
+      InputFrame.BackgroundColor3 = ColorsInfo.MainHome.Popup.InputBackgroundColor
+      
+      if TextLabel and UIStroke then
+        TextLabel.Color3 = ColorsInfo.MainHome.Popup.InputTextColor
+        UIStroke.Color = ColorsInfo.MainHome.Popup.InputBorderColor
+      end
     end
   end
   
-  
-  for _, FrameBackground in ipairs(Sidemenu:GetDescendants()) do
-    if FrameBackground.Name == "Information" or FrameBackground.Name == "Showcase" then
-      FrameBackground.BackgroundColor3 = ColorsInfo.MainExecutor.SideMenu.BackgroundImageColor
-    end
+  if Button then
+    Button.BackgroundColor3 = ColorsInfo.MainHome.Popup.BackgroundButtonColor
   end
-  
-  
 end
