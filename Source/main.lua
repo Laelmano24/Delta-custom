@@ -62,6 +62,10 @@ function ExecuteMain()
     
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/console.lua"))()
     
+    -- settings
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/settings.lua"))()
+    
     warn("You are using Delta executor. We are loading Laelmano24 modules 😸")
     
   else
