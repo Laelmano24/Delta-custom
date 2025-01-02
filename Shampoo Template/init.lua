@@ -1,6 +1,6 @@
-local ColorInfo = shared.DeltaGuiInterfaceColors
+shared.DeltaGuiInterfaceColors = nil
 
-ColorInfo = {
+shared.DeltaGuiInterfaceColors = {
   Logo = {
     BorderColor = Color3.fromRGB(96, 50, 196),
     BorderThickness = 3

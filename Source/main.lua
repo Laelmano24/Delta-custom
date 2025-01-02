@@ -5,7 +5,7 @@ function ExecuteMain()
   if string.find(tostring(NameExecutor()), "Delta") then
     
     if not shared.DeltaGuiInterfaceColors then
-      warn("Color table not found")
+      warn("Colors table not found")
       return
     end
     
