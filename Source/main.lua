@@ -2,7 +2,7 @@ local NameExecutor = getexecutorname or identifyexecutor
 local CoreGui = game:GetService("CoreGui")
 
 function ExecuteMain()
-  if tostring(NameExecutor()):Find("Delta") then
+  if string.find(NameExecutor(), "Delta") then
     
     if not shared.DeltaGuiInterfaceColors then
       warn("Color table not found")
