@@ -84,6 +84,13 @@ shared.DeltaGuiInterfaceColors = {
         BackgroundColor = Color3.fromRGB(22, 11, 46),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
         ClickButton = Color3.fromRGB(91, 48, 193)
+      },
+      Toggle = {
+        ToggleBackgroundEnabled = Color3.fromRGB(71, 34, 146),
+        ToggleBackgroundDisabled = Color3.fromRGB(22, 11, 46),
+        ToggleIconEnabled = Color3.fromRGB(113, 55, 234),
+        ToggleIconDisabled = Color3.fromRGB(51, 25, 106),
+        DescriptionColor = Color3.fromRGB(255, 255, 255),
       }
     }
   }
