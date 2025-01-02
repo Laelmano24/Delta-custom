@@ -43,7 +43,7 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainPopup = {
     BackgroundColor = Color3.fromRGB(22, 11, 46),
-    BackgroundButtonColor = Color3.fromRGB(22, 11, 46),
+    BackgroundButtonColor = Color3.fromRGB(91, 48, 193),
     InputTextColor = Color3.fromRGB(255, 255, 255),
     InputBackgroundColor = Color3.fromRGB(54, 28, 113),
     InputBorderColor = Color3.fromRGB(79, 41, 165),
