@@ -78,3 +78,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-cust
 -- Executor
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/executor.lua"))()
+
+-- Home
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Shampoo%20Template/Home.lua"))()
