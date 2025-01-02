@@ -52,7 +52,7 @@ if Holder then
             
             if Description then
               
-              Button.BackgroundColor3 = ColorsInfo.MainSettings.Holder.Toggle.DescriptionColor
+              Description.TextColor3 = ColorsInfo.MainSettings.Holder.Toggle.DescriptionColor
               
             end
           elseif Enable and not Enable.Value and Description then
