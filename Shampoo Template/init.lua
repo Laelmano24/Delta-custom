@@ -74,6 +74,18 @@ shared.DeltaGuiInterfaceColors = {
     ClearTextColor = Color3.fromRGB(111, 57, 232),
     ClearBorderColor = Color3.fromRGB(88, 45, 185),
     ClearBackground = Color3.fromRGB(61, 31, 128),
+  },
+  MainSettings = {
+    Searchbar = {
+      BackgroundColor = Color3.fromRGB(22, 11, 46)
+    },
+    Holder = {
+      Button = {
+        BackgroundColor = Color3.fromRGB(22, 11, 46),
+        DescriptionColor = Color3.fromRGB(255, 255, 255),
+        ClickButton = Color3.fromRGB(91, 48, 193)
+      }
+    }
   }
 }
 
