@@ -25,7 +25,7 @@ if Holder then
     while true do
       for _, ImageBackground in ipairs(Holder:GetChildren()) do
         if ImageBackground:IsA("ImageLabel") then
-          ImageBackground.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundButtonColor
+          ImageBackground.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundColor
           
           for _, Button in ipairs(ImageBackground:GetChildren()) do
             if Button:IsA("ImageButton") then
