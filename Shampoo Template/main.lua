@@ -30,6 +30,16 @@ shared.DeltaGuiInterfaceColors = {
       ButtonColor = Color3.fromRGB(70, 35, 147)
     },
     MenuColor = Color3.fromRGB(39, 20, 82)
+  },
+  MainHome {
+    Searchbar = {
+      BackgroundColor = Color3.fromRGB(22, 11, 46),
+      BackgroundButtonColor = Color3.fromRGB(91, 48, 193)
+    },
+    Holder = {
+      BackgroundColor = Color3.fromRGB(22, 11, 46),
+      BackgroundButtonColor = Color3.fromRGB(57, 29, 117)
+    }
   }
 }
 
