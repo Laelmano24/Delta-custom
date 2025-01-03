@@ -58,7 +58,7 @@ if Holder then
       
       if Dropdown then
         
-        local ImageChecked = ColorsInfo.MainSettings.Holder.ButtonDropdown.Dropdown.BackgroundColor
+        local ImageChecked = ColorsInfo.MainSettings.Holder.ButtonDropdown.Dropdown.ImageCheck
         
         Dropdown.BackgroundColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.Dropdown.BackgroundColor
         
