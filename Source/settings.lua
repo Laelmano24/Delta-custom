@@ -8,6 +8,8 @@ local Searchbar = MainSettings:FindFirstChild("Searchbar")
 
 local Holder = MainSettings:FindFirstChild("Holder")
 
+local Sort = MainSettings:FindFirstChild("Sort")
+
 if Searchbar then
   
   Searchbar.BackgroundColor3 = ColorsInfo.MainSettings.Searchbar.BackgroundColor
@@ -76,4 +78,18 @@ if Holder then
       
     end
   end)
+end
+
+if Sort then
+  
+  Sort.BackgroundColor3 = ColorsInfo.MainSettings.Sort.BackgroundColor
+  
+  for _, Button in ipairs(Sort:GetChildren()) do
+    
+    if Button:IsA("TextButton") then
+      
+      Button.BackgroundColor3 = ColorsInfo.MainSettings.Sort.BackgroundButtonColor
+      
+    end
+  end
 end
