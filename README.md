@@ -7,13 +7,23 @@
 <br></br>
 
 
-<h3>Script</h3>
-<br></br>
+<strongs>Script: </strongs>
 ```lua
 
 _G.DeltaCustomTemplates = "GengarTemplate" -- Name of a template
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/main.lua')))()
+
+```
+<br></br>
+<strongs>Templates support: </strongs>
+```lua
+
+_G.DeltaCustomTemplates = "GengarTemplate"
+
+_G.DeltaCustomTemplates = "ShampooTemplate"
+
+_G.DeltaCustomTemplates = "HackerTemplate"
 
 ```
 <br></br>
