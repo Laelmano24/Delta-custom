@@ -35,6 +35,42 @@ if Holder then
       end
     end
   end
+  
+  for _, ButtonDropdown in ipairs(Holder:GetChildren()) do
+    if ButtonDropdown.Name == "SettingDropdown" then
+      local Button = ButtonDropdown:FindFirstChild("Button")
+      local Description = ButtonDropdown:FindFirstChild("Desc")
+      local Dropdown = ButtonDropdown:FindFirstChild("Dropdown")
+      
+      ButtonDropdown.BackgroundColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.BackgroundColor
+      
+      if Button then
+        
+        local Title = Button:FindFirstChild("Title")
+        
+        Button.BackgroundColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.BackgroundColor
+        
+        if Title and Description then
+          Title.TextColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.Tile
+          Description.TextColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.Description
+        end
+      end
+      
+      if Dropdown then
+        
+        Dropdown.BackgroundColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.Dropdown.BackgroundColor
+        
+        for _, Divider in ipairs(Dropdown:GetChildren()) do
+          if Divider.Name == "Divider" then
+            Divider.BackgroundColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.Dropdown.Divider
+          end
+        end
+      end
+    end
+  end
+        
+      
+  
   task.spawn(function()
     while true do
       
