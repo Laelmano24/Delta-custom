@@ -12,6 +12,12 @@ function ExecuteMain()
     
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Shampoo%20Template/init.lua')))()
     
+  elseif _G.DeltaCustomTemplates == "ShampooTemplate" then
+    
+    warn("You have chosen the Hacker template 💀")
+    
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Shampoo%20Template/init.lua')))()
+    
   end
 end
 
