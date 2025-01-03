@@ -77,6 +77,35 @@ end
 
 if Sidemenu then
   
+  function MonitorText(Texto, Texto2)
+    
+    local Cor = ColorsInfo.MainExecutor.SideMenu.TextInfoColor
+   
+    while true do
+      
+      local TextLabel = Texto
+      if TextLabel and TextLabel:IsA("TextLabel") then
+      
+        local texto = TextLabel.Text
+        
+        local colorExtracted, contentExtracted = string.match(texto, '<font color="([^"]+)">([^<]+)</font>')
+        
+        local NewText = '<font color="' .. Cor .. '">' .. (contentExtracted or "N/A") .. '</font> ' .. Texto2
+        TextLabel.Text = NewText
+      end
+      task.wait()
+    end
+  end
+  
+  local Memory = Sidemenu:FindFirstChild("Memory", true)
+  local Ping = Sidemenu:FindFirstChild("Ping", true)
+  local Players = Sidemenu:FindFirstChild("Players", true)
+  
+  if Memory and Ping and Players then
+    task.spawn(MonitorText(Memory, "FPS"))
+    task.spawn(MonitorText(Ping, "MS Ping"))
+    task.spawn(MonitorText(Players, "players"))
+  end
   
   for _, Image in ipairs(Sidemenu:GetChildren()) do
     if Image:IsA("ImageLabel") then
@@ -90,6 +119,30 @@ if Sidemenu then
       FrameBackground.BackgroundColor3 = ColorsInfo.MainExecutor.SideMenu.BackgroundImageColor
     end
   end
+
+while _G.Sla do
+    -- Obtenha a referência ao objeto de texto
+    local TextLabel = game:GetService("CoreGui").HiddenGui["2a18b970bcfaa17f"].Executor.Sidemenu.Network.Overlay.Holder.Information.Memory
+    if TextLabel and TextLabel:IsA("TextLabel") then
+        -- Extraia o texto atual
+        local texto = TextLabel.Text
+        -- Use uma expressão regular para capturar o texto e a cor
+        local corExtraida, conteudoExtraido = string.match(texto, '<font color="([^"]+)">([^<]+)</font>')
+        
+        if corExtraida and conteudoExtraido then
+            -- Exiba o texto e a cor extraídos no console (ou use como necessário)
+            print("Cor extraída:", corExtraida)
+            print("Conteúdo extraído:", conteudoExtraido)
+        else
+            print("Nenhum texto ou cor encontrados dentro da tag <font>")
+        end
+
+        -- Atualize o texto com uma nova cor e o conteúdo extraído
+        local NewText = '<font color="' .. Cor .. '">' .. (conteudoExtraido or "N/A") .. '</font> FPS'
+        TextLabel.Text = NewText
+    end
+    task.wait() -- Pequena pausa para evitar sobrecarga
+end
   
   
 end

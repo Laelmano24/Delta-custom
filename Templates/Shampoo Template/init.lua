@@ -15,7 +15,8 @@ shared.DeltaGuiInterfaceColors = {
     BackgroundColor = Color3.fromRGB(17, 9, 36),
     SideMenu = {
       BackgroundColor = Color3.fromRGB(17, 9, 36),
-      BackgroundImageColor = Color3.fromRGB(34, 18, 73)
+      BackgroundImageColor = Color3.fromRGB(34, 18, 73),
+      TextInfoColor = "#4A00FF"
     },
     Buttons = {
       ExecuteTextColor = Color3.fromRGB(111, 57, 232),
