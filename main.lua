@@ -8,7 +8,11 @@ function ExecuteMain()
   
   if _G.DeltaCustomTemplates == "ShampooTemplate" then
     
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Meme-Sea-Script/refs/heads/main/Modules.lua')))()
+    warn("You have chosen the Shampoo template 😊")
+    
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Shampoo%20Template/init.lua')))()
     
   end
 end
+
+ExecuteMain()
