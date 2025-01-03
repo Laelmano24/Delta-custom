@@ -1,5 +1,5 @@
 <h1 align="center">Delta custom 😸</h1>
-<h3 align="center">Customize your delta interface with these templates made by Rael 💎</h3>
+<h3 align="center">Customize your delta interface with these templates made by Rael </h3>
 
 <strong>Number of views</strong>
 <br>
@@ -7,7 +7,7 @@
 <br></br>
 
 
-<strong>Script</strong>
+<h3>Script</h3>
 ```lua
 
 _G.DeltaCustomTemplates = "GengarTemplate" -- Name of a template
