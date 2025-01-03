@@ -8,6 +8,7 @@
 
 
 <h3>Script</h3>
+<br>
 ```lua
 
 _G.DeltaCustomTemplates = "GengarTemplate" -- Name of a template
