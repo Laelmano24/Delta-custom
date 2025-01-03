@@ -20,7 +20,7 @@ function ExecuteMain()
     
   elseif _G.DeltaCustomTemplates == "GengarTemplate" then
     
-    warn("You have chosen the Hacker template 😈")
+    warn("You have chosen the Gengar template 😈")
     
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Gengar%20Template/init.lua')))()
     
