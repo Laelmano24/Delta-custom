@@ -58,7 +58,17 @@ if Holder then
       
       if Dropdown then
         
+        local ImageChecked = ColorsInfo.MainSettings.Holder.ButtonDropdown.Dropdown.BackgroundColor
+        
         Dropdown.BackgroundColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.Dropdown.BackgroundColor
+        
+        if ImageChecked ~= "" then
+          for _, CheckButton in ipairs(Dropdown:GetDescendants()) do
+            if CheckButton.Name == "Checked" then
+              CheckButton.Image = ImageChecked
+            end
+          end
+        end
         
         for _, Divider in ipairs(Dropdown:GetChildren()) do
           if Divider.Name == "Divider" then

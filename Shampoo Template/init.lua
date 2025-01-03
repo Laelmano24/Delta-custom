@@ -97,6 +97,7 @@ shared.DeltaGuiInterfaceColors = {
         Title = Color3.fromRGB(255, 255, 255),
         Description = Color3.fromRGB(255, 255, 255),
         Dropdown = {
+          ImageCheck = "rbxassetid://72181733226202",
           BackgroundColor = Color3.fromRGB(22, 11, 46),
           Divider = Color3.fromRGB(64, 32, 135)
         }
