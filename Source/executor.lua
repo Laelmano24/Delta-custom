@@ -127,7 +127,7 @@ if Sidemenu then
     
     for _, Text in ipairs(Information:GetDescendants()) do
       
-      if Text:IsA("TextLabel") and Text.Parent ~= Information then
+      if Text:IsA("TextLabel") and tostring(Text.Parent) ~= "Information" then
         
         Text.TextColor3 = ColorsInfo.MainExecutor.SideMenu.TextInfoColor
         
