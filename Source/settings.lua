@@ -51,7 +51,7 @@ if Holder then
         Button.BackgroundColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.BackgroundColor
         
         if Title and Description then
-          Title.TextColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.Tile
+          Title.TextColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.Title
           Description.TextColor3 = ColorsInfo.MainSettings.Holder.ButtonDropdown.Description
         end
       end
