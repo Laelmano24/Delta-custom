@@ -79,22 +79,24 @@ if Sidemenu then
   
   function MonitorText(Texto, Texto2)
     
-    local Cor = ColorsInfo.MainExecutor.SideMenu.TextInfoColor
+    local Cor = ColorsInfo.MainExecutor.SideMenu.TextInfoFontColor
    
-    while true do
+    task.spawn(function()
+      while true do
       
-      local TextLabel = Texto
-      if TextLabel and TextLabel:IsA("TextLabel") then
+        local TextLabel = Texto
+        if TextLabel and TextLabel:IsA("TextLabel") then
       
-        local texto = TextLabel.Text
+          local texto = TextLabel.Text
         
-        local colorExtracted, contentExtracted = string.match(texto, '<font color="([^"]+)">([^<]+)</font>')
+          local colorExtracted, contentExtracted = string.match(texto, '<font color="([^"]+)">([^<]+)</font>')
         
-        local NewText = '<font color="' .. Cor .. '">' .. (contentExtracted or "N/A") .. '</font> ' .. Texto2
-        TextLabel.Text = NewText
+          local NewText = '<font color="' .. Cor .. '">' .. (contentExtracted or "N/A") .. '</font> ' .. Texto2
+          TextLabel.Text = NewText
+        end
+        task.wait()
       end
-      task.wait()
-    end
+    end)
   end
   
   local Memory = Sidemenu:FindFirstChild("Memory", true)
@@ -102,9 +104,16 @@ if Sidemenu then
   local Players = Sidemenu:FindFirstChild("Players", true)
   
   if Memory and Ping and Players then
-    task.spawn(MonitorText(Memory, "FPS"))
-    task.spawn(MonitorText(Ping, "MS Ping"))
-    task.spawn(MonitorText(Players, "players"))
+    
+    MonitorText(Memory, "FPS")
+    Memory.TextColor3 = ColorsInfo.MainExecutor.SideMenu.TextInfoColor
+    
+    MonitorText(Ping, "MS Ping")
+    Ping.TextColor3 = ColorsInfo.MainExecutor.SideMenu.TextInfoColor
+    
+    MonitorText(Players, "players")
+    Players.TextColor3 = ColorsInfo.MainExecutor.SideMenu.TextInfoColor
+    
   end
   
   for _, Image in ipairs(Sidemenu:GetChildren()) do
