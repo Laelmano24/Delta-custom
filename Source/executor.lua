@@ -66,7 +66,17 @@ if Executor then
       local Buttons = Tabs:GetChildren()
       for _, Button in ipairs(Buttons) do
         if Button:IsA("ImageButton") then
+          
+          local ButtonChild = Button:FindFirstChildOfClass("ImageButton")
+          
           Button.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.ButtonColor
+          
+          if ButtonChild then
+            
+            ButtonChild.Image = ColorsInfo.MainExecutor.Tabs.ButtonImage
+            
+          end
+          
         end
       end
       task.wait()

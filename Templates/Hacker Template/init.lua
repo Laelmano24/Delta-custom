@@ -28,6 +28,7 @@ shared.DeltaGuiInterfaceColors = {
       NormalBackground = Color3.fromRGB(77, 161, 39)
     },
     Tabs = {
+      ButtonImage = "rbxassetid://93932326259250",
       ButtonColor = Color3.fromRGB(70, 147, 35)
     },
     MenuColor = Color3.fromRGB(39, 82, 20)
