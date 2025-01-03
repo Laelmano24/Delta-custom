@@ -121,18 +121,27 @@ if Sidemenu then
   
   if Information and Showcase then
     
+    local TableNormal = {
+      Sidemenu:FindFirstChild("Showcase", true),
+      Sidemenu:FindFirstChild("Frame", true),
+      Sidemenu:FindFirstChild("Title", true)
+      
+    }
+    
     Information.BackgroundColor3 = ColorsInfo.MainExecutor.SideMenu.BackgroundImageColor
     
     Showcase.BackgroundColor3 = ColorsInfo.MainExecutor.SideMenu.BackgroundImageColor
     
-    for _, Text in ipairs(Information:GetDescendants()) do
-      
-      if Text:IsA("TextLabel") and tostring(Text.Parent) ~= "Information" then
-        
-        Text.TextColor3 = ColorsInfo.MainExecutor.SideMenu.TextInfoColor
-        
+    for _, Value in ipairs(TableNormal) do
+      if Value then
+        for _, Text in ipairs(Value:GetChildren()) do
+          if Text:IsA("TextLabel") then
+            Text.TextColor3 = ColorsInfo.MainExecutor.SideMenu.TextInfoColor
+          end
+        end
       end
     end
+        
     
   end
   
