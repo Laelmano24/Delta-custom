@@ -3,111 +3,111 @@ shared.DeltaGuiInterfaceColors = nil
 shared.DeltaGuiInterfaceColors = {
   Logo = {
     ButtonImage = "rbxassetid://96322720809328",
-    BorderColor = Color3.fromRGB(255, 96, 196),
+    BorderColor = Color3.fromRGB(255, 182, 193),
     BorderThickness = 3
   },
   slideBar = {
-    SildeBarColor = Color3.fromRGB(46, 22, 63),
-    ActiveColor = Color3.fromRGB(255, 125, 223),
-    InactiveColor = Color3.fromRGB(117, 57, 146)
+    SildeBarColor = Color3.fromRGB(255, 240, 245),
+    ActiveColor = Color3.fromRGB(255, 192, 203),
+    InactiveColor = Color3.fromRGB(255, 182, 193)
   },
   MainExecutor = {
-    BackgroundColor = Color3.fromRGB(36, 17, 50),
+    BackgroundColor = Color3.fromRGB(255, 240, 245),
     SideMenu = {
-      BackgroundColor = Color3.fromRGB(36, 17, 50),
-      BackgroundImageColor = Color3.fromRGB(73, 34, 92),
+      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      BackgroundImageColor = Color3.fromRGB(255, 222, 236),
       TextInfoColor = Color3.fromRGB(255, 255, 255),
-      TextInfoFontColor = "#FF0080"
+      TextInfoFontColor = "#FFB6C1"
     },
     Buttons = {
-      ExecuteTextColor = Color3.fromRGB(232, 111, 215),
-      ExecuteBorderColor = Color3.fromRGB(185, 88, 163),
-      ExecuteBackground = Color3.fromRGB(161, 77, 157),
-      NormalTextColor = Color3.fromRGB(193, 91, 165),
-      NormalBorderColor = Color3.fromRGB(146, 69, 128),
-      NormalBackground = Color3.fromRGB(161, 77, 157)
+      ExecuteTextColor = Color3.fromRGB(255, 174, 185),
+      ExecuteBorderColor = Color3.fromRGB(255, 162, 179),
+      ExecuteBackground = Color3.fromRGB(255, 150, 171),
+      NormalTextColor = Color3.fromRGB(255, 174, 185),
+      NormalBorderColor = Color3.fromRGB(255, 162, 179),
+      NormalBackground = Color3.fromRGB(255, 150, 171)
     },
     Tabs = {
       ButtonImage = "rbxassetid://93932326259250",
-      ButtonColor = Color3.fromRGB(147, 70, 119)
+      ButtonColor = Color3.fromRGB(255, 192, 203)
     },
-    MenuColor = Color3.fromRGB(82, 39, 105)
+    MenuColor = Color3.fromRGB(255, 222, 236)
   },
   MainHome = {
     Searchbar = {
-      BackgroundColor = Color3.fromRGB(46, 22, 63),
-      BackgroundButtonColor = Color3.fromRGB(193, 91, 165)
+      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      BackgroundButtonColor = Color3.fromRGB(255, 192, 203)
     },
     Holder = {
-      BackgroundColor = Color3.fromRGB(46, 22, 63),
-      BackgroundButtonColor = Color3.fromRGB(146, 57, 117),
-      FrameBackgroundColor = Color3.fromRGB(193, 91, 165)
+      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      BackgroundButtonColor = Color3.fromRGB(255, 182, 193),
+      FrameBackgroundColor = Color3.fromRGB(255, 192, 203)
     },
     Popup = {
-      BackgroundColor = Color3.fromRGB(46, 22, 63),
-      BackgroundButtonColor = Color3.fromRGB(193, 91, 165),
+      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      BackgroundButtonColor = Color3.fromRGB(255, 192, 203),
       InputTextColor = Color3.fromRGB(255, 255, 255),
-      InputBackgroundColor = Color3.fromRGB(113, 54, 151),
-      InputBorderColor = Color3.fromRGB(165, 79, 197),
+      InputBackgroundColor = Color3.fromRGB(255, 222, 236),
+      InputBorderColor = Color3.fromRGB(255, 174, 185),
     }
   },
   MainScriptHub = {
     Searchbar = {
-      BackgroundColor = Color3.fromRGB(46, 22, 63),
+      BackgroundColor = Color3.fromRGB(255, 240, 245),
     },
     Holder = {
-      BackgroundColor = Color3.fromRGB(35, 16, 50),
-      VerifiedFrame = Color3.fromRGB(193, 91, 165)
+      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      VerifiedFrame = Color3.fromRGB(255, 192, 203)
     },
     Popup = {
-      BackgroundColor = Color3.fromRGB(35, 16, 50),
-      ExecuteTextColor = Color3.fromRGB(232, 111, 215),
-      ExecuteBorderColor = Color3.fromRGB(185, 88, 163),
-      ExecuteBackground = Color3.fromRGB(161, 77, 157),
-      NormalTextColor = Color3.fromRGB(193, 91, 165),
-      NormalBorderColor = Color3.fromRGB(146, 69, 128),
-      NormalBackground = Color3.fromRGB(161, 77, 157)
+      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      ExecuteTextColor = Color3.fromRGB(255, 174, 185),
+      ExecuteBorderColor = Color3.fromRGB(255, 162, 179),
+      ExecuteBackground = Color3.fromRGB(255, 150, 171),
+      NormalTextColor = Color3.fromRGB(255, 174, 185),
+      NormalBorderColor = Color3.fromRGB(255, 162, 179),
+      NormalBackground = Color3.fromRGB(255, 150, 171)
     },
   },
   MainConsole = {
-    BackgroundColor = Color3.fromRGB(46, 22, 63),
-    BackgroundConsole = Color3.fromRGB(26, 12, 40),
-    SearchbarColor = Color3.fromRGB(177, 85, 150),
-    ClearTextColor = Color3.fromRGB(232, 111, 215),
-    ClearBorderColor = Color3.fromRGB(185, 88, 163),
-    ClearBackground = Color3.fromRGB(128, 61, 171),
+    BackgroundColor = Color3.fromRGB(255, 240, 245),
+    BackgroundConsole = Color3.fromRGB(255, 228, 236),
+    SearchbarColor = Color3.fromRGB(255, 192, 203),
+    ClearTextColor = Color3.fromRGB(255, 174, 185),
+    ClearBorderColor = Color3.fromRGB(255, 162, 179),
+    ClearBackground = Color3.fromRGB(255, 222, 236),
   },
   MainSettings = {
     Searchbar = {
-      BackgroundColor = Color3.fromRGB(46, 22, 63)
+      BackgroundColor = Color3.fromRGB(255, 240, 245)
     },
     Holder = {
       Button = {
-        BackgroundColor = Color3.fromRGB(46, 22, 63),
+        BackgroundColor = Color3.fromRGB(255, 240, 245),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
-        ClickButton = Color3.fromRGB(193, 91, 165)
+        ClickButton = Color3.fromRGB(255, 192, 203)
       },
       Toggle = {
-        ToggleBackgroundEnabled = Color3.fromRGB(146, 71, 158),
-        ToggleBackgroundDisabled = Color3.fromRGB(46, 22, 63),
-        ToggleIconEnabled = Color3.fromRGB(234, 113, 223),
-        ToggleIconDisabled = Color3.fromRGB(106, 51, 156),
+        ToggleBackgroundEnabled = Color3.fromRGB(255, 174, 185),
+        ToggleBackgroundDisabled = Color3.fromRGB(255, 240, 245),
+        ToggleIconEnabled = Color3.fromRGB(255, 182, 193),
+        ToggleIconDisabled = Color3.fromRGB(255, 222, 236),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
       },
       ButtonDropdown = {
-        BackgroundColor = Color3.fromRGB(46, 22, 63),
+        BackgroundColor = Color3.fromRGB(255, 240, 245),
         Title = Color3.fromRGB(255, 255, 255),
         Description = Color3.fromRGB(255, 255, 255),
         Dropdown = {
           ImageCheck = "rbxassetid://72181733226202",
-          BackgroundColor = Color3.fromRGB(46, 22, 63),
-          Divider = Color3.fromRGB(135, 64, 150)
+          BackgroundColor = Color3.fromRGB(255, 240, 245),
+          Divider = Color3.fromRGB(255, 222, 236)
         }
       }
     },
     Sort = {
-      BackgroundColor = Color3.fromRGB(46, 22, 63),
-      BackgroundButtonColor = Color3.fromRGB(148, 71, 152)
+      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      BackgroundButtonColor = Color3.fromRGB(255, 174, 185)
     }
   }
 }
