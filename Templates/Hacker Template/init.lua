@@ -40,7 +40,7 @@ shared.DeltaGuiInterfaceColors = {
     },
     Holder = {
       BackgroundColor = Color3.fromRGB(9, 28, 0),
-      BackgroundButtonColor = Color3.fromRGB(57, 117, 29),
+      BackgroundButtonColor = Color3.fromRGB(90, 185, 46),
       FrameBackgroundColor = Color3.fromRGB(91, 193, 48)
     },
     Popup = {
