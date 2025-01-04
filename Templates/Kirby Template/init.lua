@@ -3,7 +3,7 @@ shared.DeltaGuiInterfaceColors = nil
 shared.DeltaGuiInterfaceColors = {
   Logo = {
     ButtonImage = "rbxassetid://96322720809328",
-    BorderColor = Color3.fromRGB(255, 182, 193),
+    BorderColor = Color3.fromRGB(191, 100, 131),
     BorderThickness = 3
   },
   slideBar = {
@@ -29,7 +29,7 @@ shared.DeltaGuiInterfaceColors = {
     },
     Tabs = {
       ButtonImage = "rbxassetid://93932326259250",
-      ButtonColor = Color3.fromRGB(255, 192, 203)
+      ButtonColor = Color3.fromRGB(152, 80, 104)
     },
     MenuColor = Color3.fromRGB(255, 222, 236)
   },
