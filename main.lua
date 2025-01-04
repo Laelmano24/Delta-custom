@@ -1,3 +1,5 @@
+_G.DeltaCustomConfg = nil
+
 function ExecuteMain()
   if not _G.DeltaCustomTemplates then
     
