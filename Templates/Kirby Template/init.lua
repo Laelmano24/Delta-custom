@@ -20,12 +20,12 @@ shared.DeltaGuiInterfaceColors = {
       TextInfoFontColor = "#FF86AE"
     },
     Buttons = {
-      ExecuteTextColor = Color3.fromRGB(255, 174, 185),
-      ExecuteBorderColor = Color3.fromRGB(255, 162, 179),
-      ExecuteBackground = Color3.fromRGB(255, 150, 171),
-      NormalTextColor = Color3.fromRGB(255, 174, 185),
-      NormalBorderColor = Color3.fromRGB(255, 162, 179),
-      NormalBackground = Color3.fromRGB(255, 150, 171)
+      ExecuteTextColor = Color3.fromRGB(228, 120, 157),
+      ExecuteBorderColor = Color3.fromRGB(251, 132, 173),
+      ExecuteBackground = Color3.fromRGB(209, 110, 144),
+      NormalTextColor = Color3.fromRGB(224, 117, 154),
+      NormalBorderColor = Color3.fromRGB(231, 121, 159),
+      NormalBackground = Color3.fromRGB(209, 110, 144)
     },
     Tabs = {
       ButtonImage = "rbxassetid://93932326259250",
