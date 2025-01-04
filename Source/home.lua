@@ -21,36 +21,41 @@ if Searchbar then
 end
 
 if Holder then
-  task.spawn(function()
-    while true do
-      for _, ScriptFrame in ipairs(Holder:GetChildren()) do
-        
-        if ScriptFrame:IsA("ImageLabel") then
-        
-          local Frame = ScriptFrame:FindFirstChild("Frame")
+  if not _G.DeltaCustomConfg.HomeHolderLoop then
+    
+    _G.DeltaCustomConfg.HomeHolderLoop = true
+    
+    task.spawn(function()
+      while _G.DeltaCustomConfg.HomeHolderLoop do
+        for _, ScriptFrame in ipairs(Holder:GetChildren()) do
           
-          ScriptFrame.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundColor
+          if ScriptFrame:IsA("ImageLabel") then
           
-          if Frame then
+            local Frame = ScriptFrame:FindFirstChild("Frame")
             
-            Frame.BackgroundColor3 = ColorsInfo.MainHome.Holder.FrameBackgroundColor
+            ScriptFrame.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundColor
             
-          end
-          
-          for _, Button in ipairs(ScriptFrame:GetChildren()) do
-            
-            if Button:IsA("ImageButton") then
+            if Frame then
               
-              Button.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundButtonColor
+              Frame.BackgroundColor3 = ColorsInfo.MainHome.Holder.FrameBackgroundColor
               
             end
             
+            for _, Button in ipairs(ScriptFrame:GetChildren()) do
+              
+              if Button:IsA("ImageButton") then
+                
+                Button.BackgroundColor3 = ColorsInfo.MainHome.Holder.BackgroundButtonColor
+                
+              end
+              
+            end
           end
         end
+        task.wait()
       end
-      task.wait()
-    end
-  end)
+    end)
+  end
 end
 
 if Popup then
