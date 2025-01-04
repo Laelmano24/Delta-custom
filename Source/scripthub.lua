@@ -17,29 +17,34 @@ if Searchbar then
 end
 
 if Holder then
-  task.spawn(function()
-    while true do
-      for _, Button in ipairs(Holder:GetChildren()) do
-        if Button:IsA("ImageButton") then
-          local Overlay = Button:FindFirstChild("Overlay")
-          if Overlay then
-            
-            local Verified = Overlay.Title:FindFirstChild("Verified", true)
-            
-            if Verified then
+  if not _G.DeltaCustomScriptHubHolder then
+    
+    _G.DeltaCustomScriptHubHolder = true
+    
+    task.spawn(function()
+      while _G.DeltaCustomScriptHubHolder do
+        for _, Button in ipairs(Holder:GetChildren()) do
+          if Button:IsA("ImageButton") then
+            local Overlay = Button:FindFirstChild("Overlay")
+            if Overlay then
               
-              Verified.BackgroundColor3 = ColorsInfo.MainScriptHub.Holder.VerifiedFrame
+              local Verified = Overlay.Title:FindFirstChild("Verified", true)
+              
+              if Verified then
+                
+                Verified.BackgroundColor3 = ColorsInfo.MainScriptHub.Holder.VerifiedFrame
+                
+              end
+              
+              Overlay.BackgroundColor3 = ColorsInfo.MainScriptHub.Holder.BackgroundColor
               
             end
-            
-            Overlay.BackgroundColor3 = ColorsInfo.MainScriptHub.Holder.BackgroundColor
-            
           end
         end
+        task.wait()
       end
-      task.wait()
-    end
-  end)
+    end)
+  end
 end
 
 if Popup then
