@@ -21,12 +21,12 @@ if Searchbar then
 end
 
 if Holder then
-  if not _G.DeltaCustomConfg.HomeHolderLoop then
+  if not _G.DeltaCustomHomeHolderLoop then
     
-    _G.DeltaCustomConfg.HomeHolderLoop = true
+    _G.DeltaCustomHomeHolderLoop = true
     
     task.spawn(function()
-      while _G.DeltaCustomConfg.HomeHolderLoop do
+      while _G.DeltaCustomHomeHolderLoop do
         for _, ScriptFrame in ipairs(Holder:GetChildren()) do
           
           if ScriptFrame:IsA("ImageLabel") then
