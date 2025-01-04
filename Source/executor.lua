@@ -59,29 +59,31 @@ if Executor then
     end
   end
       
-  
-  task.spawn(function()
-    
-    while true do
-      local Buttons = Tabs:GetChildren()
-      for _, Button in ipairs(Buttons) do
-        if Button:IsA("ImageButton") then
-          
-          local ButtonChild = Button:FindFirstChildOfClass("ImageButton")
-          
-          Button.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.ButtonColor
-          
-          if ButtonChild then
+  if not _G.DeltaCustomExecutorTabs then
+    _G.DeltaCustomExecutorTabs = true
+    task.spawn(function()
+      
+      while _G.DeltaCustomExecutorTabs do
+        local Buttons = Tabs:GetChildren()
+        for _, Button in ipairs(Buttons) do
+          if Button:IsA("ImageButton") then
             
-            ButtonChild.Image = ColorsInfo.MainExecutor.Tabs.ButtonImage
+            local ButtonChild = Button:FindFirstChildOfClass("ImageButton")
+            
+            Button.BackgroundColor3 = ColorsInfo.MainExecutor.Tabs.ButtonColor
+            
+            if ButtonChild then
+              
+              ButtonChild.Image = ColorsInfo.MainExecutor.Tabs.ButtonImage
+              
+            end
             
           end
-          
         end
+        task.wait()
       end
-      task.wait()
-    end
-  end)
+    end)
+  end
   
 end
 
