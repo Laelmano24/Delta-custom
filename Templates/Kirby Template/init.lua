@@ -31,7 +31,7 @@ shared.DeltaGuiInterfaceColors = {
       ButtonImage = "rbxassetid://93932326259250",
       ButtonColor = Color3.fromRGB(152, 80, 104)
     },
-    MenuColor = Color3.fromRGB(255, 222, 236)
+    MenuColor = Color3.fromRGB(152, 80, 104)
   },
   MainHome = {
     Searchbar = {
@@ -88,10 +88,10 @@ shared.DeltaGuiInterfaceColors = {
         ClickButton = Color3.fromRGB(255, 192, 203)
       },
       Toggle = {
-        ToggleBackgroundEnabled = Color3.fromRGB(255, 174, 185),
+        ToggleBackgroundEnabled = Color3.fromRGB(224, 118, 154),
         ToggleBackgroundDisabled = Color3.fromRGB(76, 40, 52),
-        ToggleIconEnabled = Color3.fromRGB(255, 182, 193),
-        ToggleIconDisabled = Color3.fromRGB(255, 222, 236),
+        ToggleIconEnabled = Color3.fromRGB(255, 117, 164),
+        ToggleIconDisabled = Color3.fromRGB(130, 55, 80),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
       },
       ButtonDropdown = {
@@ -100,8 +100,8 @@ shared.DeltaGuiInterfaceColors = {
         Description = Color3.fromRGB(255, 255, 255),
         Dropdown = {
           ImageCheck = "rbxassetid://72181733226202",
-          BackgroundColor = Color3.fromRGB(255, 240, 245),
-          Divider = Color3.fromRGB(255, 222, 236)
+          BackgroundColor = Color3.fromRGB(76, 40, 52),
+          Divider = Color3.fromRGB(119, 53, 75)
         }
       }
     },
