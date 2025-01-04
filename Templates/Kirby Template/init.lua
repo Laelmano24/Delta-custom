@@ -7,14 +7,14 @@ shared.DeltaGuiInterfaceColors = {
     BorderThickness = 3
   },
   slideBar = {
-    SildeBarColor = Color3.fromRGB(255, 240, 245),
-    ActiveColor = Color3.fromRGB(255, 192, 203),
-    InactiveColor = Color3.fromRGB(255, 182, 193)
+    SildeBarColor = Color3.fromRGB(76, 40, 52),
+    ActiveColor = Color3.fromRGB(224, 118, 154),
+    InactiveColor = Color3.fromRGB(159, 84, 103)
   },
   MainExecutor = {
-    BackgroundColor = Color3.fromRGB(255, 240, 245),
+    BackgroundColor = Color3.fromRGB(76, 40, 52),
     SideMenu = {
-      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      BackgroundColor = Color3.fromRGB(76, 40, 52),
       BackgroundImageColor = Color3.fromRGB(255, 222, 236),
       TextInfoColor = Color3.fromRGB(255, 255, 255),
       TextInfoFontColor = "#FFB6C1"
@@ -35,17 +35,17 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainHome = {
     Searchbar = {
-      BackgroundColor = Color3.fromRGB(255, 240, 245),
-      BackgroundButtonColor = Color3.fromRGB(255, 192, 203)
+      BackgroundColor = Color3.fromRGB(76, 40, 52),
+      BackgroundButtonColor = Color3.fromRGB(234, 124, 161)
     },
     Holder = {
-      BackgroundColor = Color3.fromRGB(255, 240, 245),
-      BackgroundButtonColor = Color3.fromRGB(255, 182, 193),
-      FrameBackgroundColor = Color3.fromRGB(255, 192, 203)
+      BackgroundColor = Color3.fromRGB(76, 40, 52),
+      BackgroundButtonColor = Color3.fromRGB(150, 79, 103),
+      FrameBackgroundColor = Color3.fromRGB(234, 124, 161)
     },
     Popup = {
-      BackgroundColor = Color3.fromRGB(255, 240, 245),
-      BackgroundButtonColor = Color3.fromRGB(255, 192, 203),
+      BackgroundColor = Color3.fromRGB(76, 40, 52),
+      BackgroundButtonColor = Color3.fromRGB(234, 124, 161),
       InputTextColor = Color3.fromRGB(255, 255, 255),
       InputBackgroundColor = Color3.fromRGB(255, 222, 236),
       InputBorderColor = Color3.fromRGB(255, 174, 185),
@@ -53,14 +53,14 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainScriptHub = {
     Searchbar = {
-      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      BackgroundColor = Color3.fromRGB(76, 40, 52),
     },
     Holder = {
-      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      BackgroundColor = Color3.fromRGB(76, 40, 52),
       VerifiedFrame = Color3.fromRGB(255, 192, 203)
     },
     Popup = {
-      BackgroundColor = Color3.fromRGB(255, 240, 245),
+      BackgroundColor = Color3.fromRGB(76, 40, 52),
       ExecuteTextColor = Color3.fromRGB(255, 174, 185),
       ExecuteBorderColor = Color3.fromRGB(255, 162, 179),
       ExecuteBackground = Color3.fromRGB(255, 150, 171),
@@ -70,7 +70,7 @@ shared.DeltaGuiInterfaceColors = {
     },
   },
   MainConsole = {
-    BackgroundColor = Color3.fromRGB(255, 240, 245),
+    BackgroundColor = Color3.fromRGB(76, 40, 52),
     BackgroundConsole = Color3.fromRGB(255, 228, 236),
     SearchbarColor = Color3.fromRGB(255, 192, 203),
     ClearTextColor = Color3.fromRGB(255, 174, 185),
@@ -89,13 +89,13 @@ shared.DeltaGuiInterfaceColors = {
       },
       Toggle = {
         ToggleBackgroundEnabled = Color3.fromRGB(255, 174, 185),
-        ToggleBackgroundDisabled = Color3.fromRGB(255, 240, 245),
+        ToggleBackgroundDisabled = Color3.fromRGB(76, 40, 52),
         ToggleIconEnabled = Color3.fromRGB(255, 182, 193),
         ToggleIconDisabled = Color3.fromRGB(255, 222, 236),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
       },
       ButtonDropdown = {
-        BackgroundColor = Color3.fromRGB(255, 240, 245),
+        BackgroundColor = Color3.fromRGB(76, 40, 52),
         Title = Color3.fromRGB(255, 255, 255),
         Description = Color3.fromRGB(255, 255, 255),
         Dropdown = {
