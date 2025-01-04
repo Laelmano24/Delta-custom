@@ -79,23 +79,23 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainSettings = {
     Searchbar = {
-      BackgroundColor = Color3.fromRGB(22, 46, 11)
+      BackgroundColor = Color3.fromRGB(9, 28, 0)
     },
     Holder = {
       Button = {
-        BackgroundColor = Color3.fromRGB(22, 46, 11),
+        BackgroundColor = Color3.fromRGB(9, 28, 0),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
         ClickButton = Color3.fromRGB(91, 193, 48)
       },
       Toggle = {
         ToggleBackgroundEnabled = Color3.fromRGB(71, 146, 34),
-        ToggleBackgroundDisabled = Color3.fromRGB(22, 46, 11),
+        ToggleBackgroundDisabled = Color3.fromRGB(9, 28, 0),
         ToggleIconEnabled = Color3.fromRGB(113, 234, 55),
         ToggleIconDisabled = Color3.fromRGB(51, 106, 25),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
       },
       ButtonDropdown = {
-        BackgroundColor = Color3.fromRGB(22, 46, 11),
+        BackgroundColor = Color3.fromRGB(9, 28, 0),
         Title = Color3.fromRGB(255, 255, 255),
         Description = Color3.fromRGB(255, 255, 255),
         Dropdown = {
@@ -106,7 +106,7 @@ shared.DeltaGuiInterfaceColors = {
       }
     },
     Sort = {
-      BackgroundColor = Color3.fromRGB(22, 46, 11),
+      BackgroundColor = Color3.fromRGB(9, 28, 0),
       BackgroundButtonColor = Color3.fromRGB(71, 148, 35)
     }
   }
