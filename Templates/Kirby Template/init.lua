@@ -2,7 +2,7 @@ shared.DeltaGuiInterfaceColors = nil
 
 shared.DeltaGuiInterfaceColors = {
   Logo = {
-    ButtonImage = "rbxassetid://96322720809328",
+    ButtonImage = "rbxassetid://132820751011879",
     BorderColor = Color3.fromRGB(191, 100, 131),
     BorderThickness = 3
   },
@@ -57,7 +57,7 @@ shared.DeltaGuiInterfaceColors = {
     },
     Holder = {
       BackgroundColor = Color3.fromRGB(76, 40, 52),
-      VerifiedFrame = Color3.fromRGB(234, 124, 161)
+      VerifiedFrame = Color3.fromRGB(32, 17, 22)
     },
     Popup = {
       BackgroundColor = Color3.fromRGB(76, 40, 52),
