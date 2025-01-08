@@ -29,11 +29,11 @@ shared.DeltaGuiInterfaceColors = {
     },
     Tabs = {
       ButtonImage = "rbxassetid://93932326259250",
-      ButtonColor = Color3.fromRGB(44, 92, 22)
+      ButtonColor = Color3.fromRGB(2, 105, 105)
     },
-    MenuColor = Color3.fromRGB(39, 82, 20),
+    MenuColor = Color3.fromRGB(2, 105, 105),
     CodeColor = {
-      TextColor = Color3.fromRGB(255, 255, 255),
+      TextColor = Color3.fromRGB(3, 183, 183),
       PlaceHolderColor = Color3.fromRGB(255, 255, 255)
     }
   },
