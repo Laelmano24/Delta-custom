@@ -32,7 +32,7 @@ function ExecuteMain()
     
   elseif _G.DeltaCustomTemplates == "SteveTemplate" then
     
-    warn("You have chosen the Gojo template 😎")
+    warn("You have chosen the Steve template 😎")
     
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Steve%20Template/init.lua')))()
     

@@ -51,8 +51,8 @@ shared.DeltaGuiInterfaceColors = {
       BackgroundColor = Color3.fromRGB(16, 13, 40),
       BackgroundButtonColor = Color3.fromRGB(0, 140, 140),
       InputTextColor = Color3.fromRGB(255, 255, 255),
-      InputBackgroundColor = Color3.fromRGB(54, 113, 28),
-      InputBorderColor = Color3.fromRGB(79, 165, 41),
+      InputBackgroundColor = Color3.fromRGB(28, 22, 69),
+      InputBorderColor = Color3.fromRGB(38, 30, 94),
     }
   },
   MainScriptHub = {
@@ -61,25 +61,25 @@ shared.DeltaGuiInterfaceColors = {
     },
     Holder = {
       BackgroundColor = Color3.fromRGB(16, 35, 9),
-      VerifiedFrame = Color3.fromRGB(91, 193, 48)
+      VerifiedFrame = Color3.fromRGB(0, 140, 140)
     },
     Popup = {
-      BackgroundColor = Color3.fromRGB(9, 28, 0),
-      ExecuteTextColor = Color3.fromRGB(111, 232, 57),
-      ExecuteBorderColor = Color3.fromRGB(88, 185, 45),
-      ExecuteBackground = Color3.fromRGB(77, 161, 39),
-      NormalTextColor = Color3.fromRGB(91, 193, 48),
-      NormalBorderColor = Color3.fromRGB(69, 146, 36),
-      NormalBackground = Color3.fromRGB(77, 161, 39)
+      BackgroundColor = Color3.fromRGB(16, 13, 40),
+      ExecuteTextColor = Color3.fromRGB(0, 180, 180),
+      ExecuteBorderColor = Color3.fromRGB(0, 140, 140),
+      ExecuteBackground = Color3.fromRGB(0, 129, 129),
+      NormalTextColor = Color3.fromRGB(0, 160, 160),
+      NormalBorderColor = Color3.fromRGB(0, 135, 135),
+      NormalBackground = Color3.fromRGB(0, 120, 120)
     },
   },
   MainConsole = {
-    BackgroundColor = Color3.fromRGB(9, 28, 0),
-    BackgroundConsole = Color3.fromRGB(8, 17, 4),
-    SearchbarColor = Color3.fromRGB(85, 177, 42),
-    ClearTextColor = Color3.fromRGB(111, 232, 57),
-    ClearBorderColor = Color3.fromRGB(88, 185, 45),
-    ClearBackground = Color3.fromRGB(61, 128, 31),
+    BackgroundColor = Color3.fromRGB(16, 13, 40),
+    BackgroundConsole = Color3.fromRGB(9, 7, 22),
+    SearchbarColor = Color3.fromRGB(0, 140, 140),
+    ClearTextColor = Color3.fromRGB(0, 180, 180),
+    ClearBorderColor = Color3.fromRGB(0, 140, 140),
+    ClearBackground = Color3.fromRGB(0, 129, 129),
   },
   MainSettings = {
     Searchbar = {
