@@ -33,8 +33,8 @@ shared.DeltaGuiInterfaceColors = {
     },
     MenuColor = Color3.fromRGB(39, 82, 20),
     CodeColor = {
-      TextColor = Color3.fromRGB(102, 209, 255),
-      PlaceHolderColor = Color3.fromRGB(0, 0, 0)
+      TextColor = Color3.fromRGB(255, 255, 255),
+      PlaceHolderColor = Color3.fromRGB(255, 255, 255)
     }
   },
   MainHome = {
