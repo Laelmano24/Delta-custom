@@ -7,25 +7,25 @@ shared.DeltaGuiInterfaceColors = {
     BorderThickness = 3
   },
   slideBar = {
-    SildeBarColor = Color3.fromRGB(16, 13, 40),
-    ActiveColor = Color3.fromRGB(0, 140, 140),
-    InactiveColor = Color3.fromRGB(3, 110, 110)
+    SildeBarColor = Color3.fromRGB(236, 226, 231),
+    ActiveColor = Color3.fromRGB(102, 209, 255),
+    InactiveColor = Color3.fromRGB(80, 165, 201)
   },
   MainExecutor = {
-    BackgroundColor = Color3.fromRGB(16, 13, 40),
+    BackgroundColor = Color3.fromRGB(236, 226, 231),
     SideMenu = {
-      BackgroundColor = Color3.fromRGB(16, 13, 40),
-      BackgroundImageColor = Color3.fromRGB(2, 138, 138),
+      BackgroundColor = Color3.fromRGB(236, 226, 231),
+      BackgroundImageColor = Color3.fromRGB(34, 73, 18),
       TextInfoColor = Color3.fromRGB(255, 255, 255),
       TextInfoFontColor = "#06FF00"
     },
     Buttons = {
-      ExecuteTextColor = Color3.fromRGB(0, 180, 180),
-      ExecuteBorderColor = Color3.fromRGB(0, 140, 140),
-      ExecuteBackground = Color3.fromRGB(0, 129, 129),
-      NormalTextColor = Color3.fromRGB(0, 160, 160),
-      NormalBorderColor = Color3.fromRGB(0, 135, 135),
-      NormalBackground = Color3.fromRGB(0, 120, 120)
+      ExecuteTextColor = Color3.fromRGB(111, 232, 57),
+      ExecuteBorderColor = Color3.fromRGB(88, 185, 45),
+      ExecuteBackground = Color3.fromRGB(77, 161, 39),
+      NormalTextColor = Color3.fromRGB(91, 193, 48),
+      NormalBorderColor = Color3.fromRGB(69, 146, 36),
+      NormalBackground = Color3.fromRGB(77, 161, 39)
     },
     Tabs = {
       ButtonImage = "rbxassetid://93932326259250",
@@ -39,11 +39,11 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainHome = {
     Searchbar = {
-      BackgroundColor = Color3.fromRGB(16, 13, 40),
+      BackgroundColor = Color3.fromRGB(236, 226, 231),
       BackgroundButtonColor = Color3.fromRGB(102, 209, 255)
     },
     Holder = {
-      BackgroundColor = Color3.fromRGB(16, 13, 40),
+      BackgroundColor = Color3.fromRGB(236, 226, 231),
       BackgroundButtonColor = Color3.fromRGB(65, 133, 33),
       FrameBackgroundColor = Color3.fromRGB(91, 193, 48)
     },
@@ -57,7 +57,7 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainScriptHub = {
     Searchbar = {
-      BackgroundColor = Color3.fromRGB(16, 13, 40),
+      BackgroundColor = Color3.fromRGB(236, 226, 231),
     },
     Holder = {
       BackgroundColor = Color3.fromRGB(16, 35, 9),
