@@ -14,6 +14,7 @@ if Executor then
   local Menu = Overlay.Menu
   local Frame = Overlay.Frame
   local Buttons = Overlay.Buttons
+  local Code = Overlay.Code
   
   Executor.ImageTransparency = 1
   Executor.BackgroundTransparency = 1
@@ -28,6 +29,16 @@ if Executor then
   Frame.BackgroundColor3 = ColorsInfo.MainExecutor.BackgroundColor
   
   Menu.BackgroundColor3 = ColorsInfo.MainExecutor.MenuColor
+  
+  local TextBox = Code:FindFirstChildOfClass("TextBox")
+  
+  if TextBox then
+    
+    TextBox.TextColor3 = ColorsInfo.MainExecutor.CodeColor.TextColor
+    
+    TextBox.PlaceholderColor3 = ColorsInfo.MainExecutor.CodeColor.PlaceHolderColor
+    
+  end
   
   for _, Button in ipairs(Buttons:GetChildren()) do
     if Button.Name == "Execute" and Button:IsA("ImageButton") then

@@ -7,14 +7,14 @@ shared.DeltaGuiInterfaceColors = {
     BorderThickness = 3
   },
   slideBar = {
-    SildeBarColor = Color3.fromRGB(9, 28, 0),
+    SildeBarColor = Color3.fromRGB(252, 242, 247),
     ActiveColor = Color3.fromRGB(95, 195, 50),
     InactiveColor = Color3.fromRGB(21, 67, 0)
   },
   MainExecutor = {
     BackgroundColor = Color3.fromRGB(252, 242, 247),
     SideMenu = {
-      BackgroundColor = Color3.fromRGB(9, 28, 0),
+      BackgroundColor = Color3.fromRGB(252, 242, 247),
       BackgroundImageColor = Color3.fromRGB(34, 73, 18),
       TextInfoColor = Color3.fromRGB(255, 255, 255),
       TextInfoFontColor = "#06FF00"
@@ -31,7 +31,11 @@ shared.DeltaGuiInterfaceColors = {
       ButtonImage = "rbxassetid://93932326259250",
       ButtonColor = Color3.fromRGB(44, 92, 22)
     },
-    MenuColor = Color3.fromRGB(39, 82, 20)
+    MenuColor = Color3.fromRGB(39, 82, 20),
+    CodeColor = {
+      TextColor = Color3.fromRGB(102, 209, 255),
+      PlaceHolderColor = Color3.fromRGB(0, 0, 0)
+    }
   },
   MainHome = {
     Searchbar = {

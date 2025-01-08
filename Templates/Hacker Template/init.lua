@@ -31,7 +31,11 @@ shared.DeltaGuiInterfaceColors = {
       ButtonImage = "rbxassetid://93932326259250",
       ButtonColor = Color3.fromRGB(44, 92, 22)
     },
-    MenuColor = Color3.fromRGB(39, 82, 20)
+    MenuColor = Color3.fromRGB(39, 82, 20),
+    CodeColor = {
+      TextColor = Color3.fromRGB(255, 255, 255),
+      PlaceHolderColor = Color3.fromRGB(178, 178, 178)
+    }
   },
   MainHome = {
     Searchbar = {
