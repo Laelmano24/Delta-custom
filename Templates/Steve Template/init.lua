@@ -40,12 +40,12 @@ shared.DeltaGuiInterfaceColors = {
   MainHome = {
     Searchbar = {
       BackgroundColor = Color3.fromRGB(16, 13, 40),
-      BackgroundButtonColor = Color3.fromRGB(0, 140, 140)
+      BackgroundButtonColor = Color3.fromRGB(0, 178, 178)
     },
     Holder = {
       BackgroundColor = Color3.fromRGB(16, 13, 40),
       BackgroundButtonColor = Color3.fromRGB(0, 140, 140),
-      FrameBackgroundColor = Color3.fromRGB(0, 140, 140)
+      FrameBackgroundColor = Color3.fromRGB(0, 178, 178)
     },
     Popup = {
       BackgroundColor = Color3.fromRGB(16, 13, 40),
@@ -83,35 +83,35 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainSettings = {
     Searchbar = {
-      BackgroundColor = Color3.fromRGB(9, 28, 0)
+      BackgroundColor = Color3.fromRGB(16, 13, 40)
     },
     Holder = {
       Button = {
-        BackgroundColor = Color3.fromRGB(9, 28, 0),
+        BackgroundColor = Color3.fromRGB(16, 13, 40),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
         ClickButton = Color3.fromRGB(91, 193, 48)
       },
       Toggle = {
-        ToggleBackgroundEnabled = Color3.fromRGB(71, 146, 34),
-        ToggleBackgroundDisabled = Color3.fromRGB(9, 28, 0),
-        ToggleIconEnabled = Color3.fromRGB(113, 234, 55),
-        ToggleIconDisabled = Color3.fromRGB(51, 106, 25),
+        ToggleBackgroundEnabled = Color3.fromRGB(0, 140, 140),
+        ToggleBackgroundDisabled = Color3.fromRGB(16, 13, 40),
+        ToggleIconEnabled = Color3.fromRGB(0, 178, 178),
+        ToggleIconDisabled = Color3.fromRGB(9, 7, 22),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
       },
       ButtonDropdown = {
-        BackgroundColor = Color3.fromRGB(9, 28, 0),
+        BackgroundColor = Color3.fromRGB(16, 13, 40),
         Title = Color3.fromRGB(255, 255, 255),
         Description = Color3.fromRGB(255, 255, 255),
         Dropdown = {
           ImageCheck = "rbxassetid://72181733226202",
-          BackgroundColor = Color3.fromRGB(22, 46, 11),
-          Divider = Color3.fromRGB(64, 135, 32)
+          BackgroundColor = Color3.fromRGB(16, 13, 40),
+          Divider = Color3.fromRGB(0, 110, 110)
         }
       }
     },
     Sort = {
-      BackgroundColor = Color3.fromRGB(9, 28, 0),
-      BackgroundButtonColor = Color3.fromRGB(71, 148, 35)
+      BackgroundColor = Color3.fromRGB(16, 13, 40),
+      BackgroundButtonColor = Color3.fromRGB(0, 140, 140)
     }
   }
 }
