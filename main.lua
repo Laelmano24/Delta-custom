@@ -30,6 +30,12 @@ function ExecuteMain()
     
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Kirby%20Template/init.lua')))()
     
+  elseif _G.DeltaCustomTemplates == "GojoTemplate" then
+    
+    warn("You have chosen the Gojo template 🥶")
+    
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Gojo%20Template/init.lua')))()
+    
   end
 end
 
