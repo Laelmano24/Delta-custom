@@ -60,7 +60,7 @@ shared.DeltaGuiInterfaceColors = {
       BackgroundColor = Color3.fromRGB(16, 13, 40),
     },
     Holder = {
-      BackgroundColor = Color3.fromRGB(16, 35, 9),
+      BackgroundColor = Color3.fromRGB(0, 62, 62),
       VerifiedFrame = Color3.fromRGB(0, 140, 140)
     },
     Popup = {
@@ -89,7 +89,7 @@ shared.DeltaGuiInterfaceColors = {
       Button = {
         BackgroundColor = Color3.fromRGB(16, 13, 40),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
-        ClickButton = Color3.fromRGB(91, 193, 48)
+        ClickButton = Color3.fromRGB(0, 140, 140)
       },
       Toggle = {
         ToggleBackgroundEnabled = Color3.fromRGB(0, 140, 140),
