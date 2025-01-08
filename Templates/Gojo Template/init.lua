@@ -40,16 +40,16 @@ shared.DeltaGuiInterfaceColors = {
   MainHome = {
     Searchbar = {
       BackgroundColor = Color3.fromRGB(16, 13, 40),
-      BackgroundButtonColor = Color3.fromRGB(102, 209, 255)
+      BackgroundButtonColor = Color3.fromRGB(0, 140, 140)
     },
     Holder = {
       BackgroundColor = Color3.fromRGB(16, 13, 40),
-      BackgroundButtonColor = Color3.fromRGB(65, 133, 33),
-      FrameBackgroundColor = Color3.fromRGB(91, 193, 48)
+      BackgroundButtonColor = Color3.fromRGB(0, 140, 140),
+      FrameBackgroundColor = Color3.fromRGB(0, 140, 140)
     },
     Popup = {
-      BackgroundColor = Color3.fromRGB(236, 226, 231),
-      BackgroundButtonColor = Color3.fromRGB(95, 195, 50),
+      BackgroundColor = Color3.fromRGB(16, 13, 40),
+      BackgroundButtonColor = Color3.fromRGB(0, 140, 140),
       InputTextColor = Color3.fromRGB(255, 255, 255),
       InputBackgroundColor = Color3.fromRGB(54, 113, 28),
       InputBorderColor = Color3.fromRGB(79, 165, 41),
