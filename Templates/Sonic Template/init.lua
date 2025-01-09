@@ -17,7 +17,7 @@ shared.DeltaGuiInterfaceColors = {
       BackgroundColor = Color3.fromRGB(0, 11, 64),
       BackgroundImageColor = Color3.fromRGB(1, 29, 172),
       TextInfoColor = Color3.fromRGB(255, 255, 255),
-      TextInfoFontColor = "#0128E8"
+      TextInfoFontColor = "#002BFF"
     },
     Buttons = {
       ExecuteTextColor = Color3.fromRGB(1, 40, 232),
@@ -52,8 +52,8 @@ shared.DeltaGuiInterfaceColors = {
       BackgroundColor = Color3.fromRGB(0, 11, 64),
       BackgroundButtonColor = Color3.fromRGB(1, 40, 232),
       InputTextColor = Color3.fromRGB(255, 255, 255),
-      InputBackgroundColor = Color3.fromRGB(54, 28, 113),
-      InputBorderColor = Color3.fromRGB(79, 41, 165),
+      InputBackgroundColor = Color3.fromRGB(1, 16, 92),
+      InputBorderColor = Color3.fromRGB(1, 12, 68),
     }
   },
   MainScriptHub = {
@@ -93,10 +93,10 @@ shared.DeltaGuiInterfaceColors = {
         ClickButton = Color3.fromRGB(91, 48, 193)
       },
       Toggle = {
-        ToggleBackgroundEnabled = Color3.fromRGB(71, 34, 146),
+        ToggleBackgroundEnabled = Color3.fromRGB(1, 40, 232),
         ToggleBackgroundDisabled = Color3.fromRGB(0, 11, 64),
-        ToggleIconEnabled = Color3.fromRGB(113, 55, 234),
-        ToggleIconDisabled = Color3.fromRGB(51, 25, 106),
+        ToggleIconEnabled = Color3.fromRGB(0, 43, 255),
+        ToggleIconDisabled = Color3.fromRGB(0, 8, 48),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
       },
       ButtonDropdown = {
@@ -112,7 +112,7 @@ shared.DeltaGuiInterfaceColors = {
     },
     Sort = {
       BackgroundColor = Color3.fromRGB(0, 11, 64),
-      BackgroundButtonColor = Color3.fromRGB(71, 35, 148)
+      BackgroundButtonColor = Color3.fromRGB(1, 29, 172)
     }
   }
 }
