@@ -61,7 +61,7 @@ shared.DeltaGuiInterfaceColors = {
       BackgroundColor = Color3.fromRGB(0, 11, 64),
     },
     Holder = {
-      BackgroundColor = Color3.fromRGB(0, 11, 64),
+      BackgroundColor = Color3.fromRGB(0, 7, 41),
       VerifiedFrame = Color3.fromRGB(91, 48, 193)
     },
     Popup = {
@@ -76,7 +76,7 @@ shared.DeltaGuiInterfaceColors = {
   },
   MainConsole = {
     BackgroundColor = Color3.fromRGB(0, 11, 64),
-    BackgroundConsole = Color3.fromRGB(12, 6, 26),
+    BackgroundConsole = Color3.fromRGB(0, 6, 35),
     SearchbarColor = Color3.fromRGB(1, 40, 232),
     ClearTextColor = Color3.fromRGB(1, 40, 232),
     ClearBorderColor = Color3.fromRGB(1, 34, 197),
@@ -90,10 +90,10 @@ shared.DeltaGuiInterfaceColors = {
       Button = {
         BackgroundColor = Color3.fromRGB(0, 11, 64),
         DescriptionColor = Color3.fromRGB(255, 255, 255),
-        ClickButton = Color3.fromRGB(91, 48, 193)
+        ClickButton = Color3.fromRGB(1, 29, 172)
       },
       Toggle = {
-        ToggleBackgroundEnabled = Color3.fromRGB(1, 40, 232),
+        ToggleBackgroundEnabled = Color3.fromRGB(1, 29, 172),
         ToggleBackgroundDisabled = Color3.fromRGB(0, 11, 64),
         ToggleIconEnabled = Color3.fromRGB(0, 43, 255),
         ToggleIconDisabled = Color3.fromRGB(0, 8, 48),
