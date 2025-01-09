@@ -38,7 +38,7 @@ function ExecuteMain()
     
   elseif _G.DeltaCustomTemplates == "SonicTemplate" then
     
-    warn("You have chosen the Sonic template 😎")
+    warn("You have chosen the Sonic template 🦔")
     
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Templates/Sonic%20Template/init.lua')))()
     

@@ -20,12 +20,12 @@ shared.DeltaGuiInterfaceColors = {
       TextInfoFontColor = "#4A00FF"
     },
     Buttons = {
-      ExecuteTextColor = Color3.fromRGB(111, 57, 232),
-      ExecuteBorderColor = Color3.fromRGB(88, 45, 185),
-      ExecuteBackground = Color3.fromRGB(77, 39, 161),
-      NormalTextColor = Color3.fromRGB(91, 48, 193),
-      NormalBorderColor = Color3.fromRGB(69, 36, 146),
-      NormalBackground = Color3.fromRGB(77, 39, 161)
+      ExecuteTextColor = Color3.fromRGB(1, 40, 232),
+      ExecuteBorderColor = Color3.fromRGB(1, 34, 197),
+      ExecuteBackground = Color3.fromRGB(1, 30, 173),
+      NormalTextColor = Color3.fromRGB(1, 34, 197),
+      NormalBorderColor = Color3.fromRGB(1, 30, 173),
+      NormalBackground = Color3.fromRGB(1, 30, 173)
       
     },
     Tabs = {
@@ -41,16 +41,16 @@ shared.DeltaGuiInterfaceColors = {
   MainHome = {
     Searchbar = {
       BackgroundColor = Color3.fromRGB(0, 15, 90),
-      BackgroundButtonColor = Color3.fromRGB(91, 48, 193)
+      BackgroundButtonColor = Color3.fromRGB(1, 40, 232)
     },
     Holder = {
       BackgroundColor = Color3.fromRGB(0, 15, 90),
-      BackgroundButtonColor = Color3.fromRGB(57, 29, 117),
-      FrameBackgroundColor = Color3.fromRGB(91, 48, 193)
+      BackgroundButtonColor = Color3.fromRGB(0, 33, 183),
+      FrameBackgroundColor = Color3.fromRGB(1, 40, 232)
     },
     Popup = {
       BackgroundColor = Color3.fromRGB(0, 15, 90),
-      BackgroundButtonColor = Color3.fromRGB(91, 48, 193),
+      BackgroundButtonColor = Color3.fromRGB(1, 40, 232),
       InputTextColor = Color3.fromRGB(255, 255, 255),
       InputBackgroundColor = Color3.fromRGB(54, 28, 113),
       InputBorderColor = Color3.fromRGB(79, 41, 165),
@@ -66,21 +66,21 @@ shared.DeltaGuiInterfaceColors = {
     },
     Popup = {
       BackgroundColor = Color3.fromRGB(0, 15, 90),
-      ExecuteTextColor = Color3.fromRGB(111, 57, 232),
-      ExecuteBorderColor = Color3.fromRGB(88, 45, 185),
-      ExecuteBackground = Color3.fromRGB(77, 39, 161),
-      NormalTextColor = Color3.fromRGB(91, 48, 193),
-      NormalBorderColor = Color3.fromRGB(69, 36, 146),
-      NormalBackground = Color3.fromRGB(77, 39, 161)
+      ExecuteTextColor = Color3.fromRGB(1, 40, 232),
+      ExecuteBorderColor = Color3.fromRGB(1, 34, 197),
+      ExecuteBackground = Color3.fromRGB(1, 30, 173),
+      NormalTextColor = Color3.fromRGB(1, 34, 197),
+      NormalBorderColor = Color3.fromRGB(1, 30, 173),
+      NormalBackground = Color3.fromRGB(1, 30, 173)
     },
   },
   MainConsole = {
     BackgroundColor = Color3.fromRGB(0, 15, 90),
     BackgroundConsole = Color3.fromRGB(12, 6, 26),
-    SearchbarColor = Color3.fromRGB(85, 42, 177),
-    ClearTextColor = Color3.fromRGB(111, 57, 232),
-    ClearBorderColor = Color3.fromRGB(88, 45, 185),
-    ClearBackground = Color3.fromRGB(61, 31, 128),
+    SearchbarColor = Color3.fromRGB(1, 40, 232),
+    ClearTextColor = Color3.fromRGB(1, 40, 232),
+    ClearBorderColor = Color3.fromRGB(1, 34, 197),
+    ClearBackground = Color3.fromRGB(1, 30, 173),
   },
   MainSettings = {
     Searchbar = {
