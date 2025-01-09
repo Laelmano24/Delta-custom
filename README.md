@@ -27,6 +27,8 @@ _G.DeltaCustomTemplates = "HackerTemplate"
 
 _G.DeltaCustomTemplates = "KirbyTemplate"
 
+_G.DeltaCustomTemplates = "SteveTemplate"
+
 ```
 <br></br>
 <strongs>If you have any questions, please visit my website: </strongs>
