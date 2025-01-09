@@ -2,8 +2,8 @@ shared.DeltaGuiInterfaceColors = nil
 
 shared.DeltaGuiInterfaceColors = {
   Logo = {
-    ButtonImage = "rbxassetid://96322720809328",
-    BorderColor = Color3.fromRGB(96, 50, 196),
+    ButtonImage = "rbxassetid://87678815295456",
+    BorderColor = Color3.fromRGB(1, 29, 172),
     BorderThickness = 3
   },
   slideBar = {
@@ -105,8 +105,8 @@ shared.DeltaGuiInterfaceColors = {
         Description = Color3.fromRGB(255, 255, 255),
         Dropdown = {
           ImageCheck = "rbxassetid://72181733226202",
-          BackgroundColor = Color3.fromRGB(22, 11, 46),
-          Divider = Color3.fromRGB(64, 32, 135)
+          BackgroundColor = Color3.fromRGB(0, 11, 64),
+          Divider = Color3.fromRGB(1, 40, 232)
         }
       }
     },
