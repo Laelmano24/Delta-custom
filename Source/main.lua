@@ -1,4 +1,6 @@
-local CoreGui = game.CoreGui
+local CoreGui = game:GetService("CoreGui")
+local StarterGui = game:GetService("StarterGui")
+
 local MapID = game.PlaceId
 local GetNameExecutor = getexecutorname or identifyexecutor
 
