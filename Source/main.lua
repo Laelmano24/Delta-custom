@@ -1,4 +1,5 @@
 local CoreGui = game.CoreGui
+local MapID = game.PlaceId
 local GetNameExecutor = getexecutorname or identifyexecutor
 
 local function ExecuteBypassThemimic()
