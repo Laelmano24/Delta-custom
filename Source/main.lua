@@ -33,6 +33,8 @@ function FindDeltaFolder()
   
   local ExecutorName = string.lower(GetNameExecutor())
   local NewButtonLogo = shared.DeltaGuiInterfaceColors.Logo.ButtonImage
+  local NewButtonColor = shared.DeltaGuiInterfaceColors.Logo.BorderColor
+  local NewButtonBorder = shared.DeltaGuiInterfaceColors.Logo.BorderThickness
   
   if not ExecutorName:match("delta") then
     warn("You are not using the Delta executor")
@@ -47,10 +49,15 @@ function FindDeltaFolder()
       if ScreenGui and ScreenGui:IsA("ScreenGui") then
         local Folder = ScreenGui.Parent
         if Folder and Folder:IsA("Folder") then
-          warn("You are using Delta executor. We are loading Laelmano24 modules")
-          Img.Image = NewButtonLogo
-          shared.DeltaGuiInterface = Folder
-          return true
+          local Border = Img:FindFirstChild("UIStroke")
+          if Border then
+            warn("You are using Delta executor. We are loading Laelmano24 modules")
+            Img.Image = NewButtonLogo
+            Border.Color = NewButtonColor
+            Border.Thickness = NewButtonBorder
+            shared.DeltaGuiInterface = Folder
+            return true
+          end
         end
       end
     end
