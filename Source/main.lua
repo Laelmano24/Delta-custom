@@ -1,7 +1,7 @@
 local CoreGui = game.CoreGui
 local GetNameExecutor = getexecutorname or identifyexecutor
 
-local function ExecuteBypass()
+local function ExecuteBypassThemimic()
   
   if MapID ~= 15962819441 then
     return nil
@@ -31,13 +31,14 @@ end
 function FindDeltaFolder()
   
   local ExecutorName = string.lower(GetNameExecutor())
+  local NewButtonLogo = shared.DeltaGuiInterfaceColors.Logo.ButtonImage
   
   if not ExecutorName:match("delta") then
     warn("You are not using the Delta executor")
     return false
   end
 
-  ExecuteBypass()
+  ExecuteBypassThemimic()
 
   for _, Img in ipairs(CoreGui:GetDescendants()) do
     if Img:IsA("ImageButton") and Img.Image == "rbxasset://custom_gloop/new_logo.png" then
@@ -46,6 +47,7 @@ function FindDeltaFolder()
         local Folder = ScreenGui.Parent
         if Folder and Folder:IsA("Folder") then
           warn("You are using Delta executor. We are loading Laelmano24 modules")
+          Img.Image = NewButtonLogo
           shared.DeltaGuiInterface = Folder
           return true
         end
@@ -65,7 +67,7 @@ if DeltaFolder then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/home.lua"))()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/executor.lua"))()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/scripthub.lua"))()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/console.lua"))()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/settings.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Delta-custom/refs/heads/main/Source/console.lua"))()
   
 end
